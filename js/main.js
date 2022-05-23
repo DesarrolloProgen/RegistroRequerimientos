@@ -1,4 +1,6 @@
 window.addEventListener('load', function () {
+    /* ------------------------------ GET API--------------------------------------- */
+    obtenerDatos();
     /* ---------------------Declaración de Variables ------------------------------ */
     const form = document.forms[0];
     let now = new Date();
@@ -93,6 +95,57 @@ window.addEventListener('load', function () {
             document.getElementById('mensaje').innerHTML='Algo salio mal.... Recargue la pagina e intete nuevamente<br>' + err;
         })
     }
+
+    function obtenerDatos() {
+      var url = "https://prod-28.brazilsouth.logic.azure.com:443/workflows/be2d5679275e4f098a00f40ec0f04a29/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=P66ODxcUOPOzaI2KUyOHPF0AYDrTRl1nHU-XhAAI94o";
+      fetch(url)
+      .then(response => {
+        return response.json();
+      })
+      .then(function (data) {
+        var listID = "<option disabled selected>Selecciona una opción</option>";
+        var listDep = "<option disabled selected>Selecciona una opción</option>";
+        var listCat = "<option disabled selected>Selecciona una opción</option>";
+        var listEquipo = "<option disabled selected>Selecciona una opción</option>";
+        var listCliente = "<option disabled selected>Selecciona una opción</option>";
+
+        for (var i = 0; i < data.value.length; i++) {
+          if (data.value[i].Identificacion != '') {
+            listID += "<option value='" + data.value[i].Identificacion + "'>" + data.value[i].Identificacion + "</option>";
+          }
+        }
+
+        for (var i = 0; i < data.value.length; i++) {
+          if (data.value[i].Departamento != '') {
+            listDep += "<option value='" + data.value[i].Departamento + "'>" + data.value[i].Departamento + "</option>";
+          }            
+        }
+        for (var i = 0; i < data.value.length; i++) {
+          if (data.value[i].Requerimiento != '') {
+            listCat += "<option value='" + data.value[i].Requerimiento + "'>" + data.value[i].Requerimiento + "</option>";
+          } 
+        }
+        for (var i = 0; i < data.value.length; i++) {
+          if (data.value[i].Equipos != '') {
+            listEquipo += "<option value='" + data.value[i].Equipos + "'>" + data.value[i].Equipos + "</option>";
+          }            
+        }
+        for (var i = 0; i < data.value.length; i++) {
+          if (data.value[i].Tipo_cliente != '') {
+            listCliente += "<option value='" + data.value[i].Tipo_cliente + "'>" + data.value[i].Tipo_cliente + "</option>";
+          }            
+        }
+        document.querySelector("#ID").innerHTML = listID;
+        document.querySelector("#Departamento").innerHTML = listDep;
+        document.querySelector("#categoria_requerimiento").innerHTML = listCat;
+        document.querySelector("#Equipos").innerHTML = listEquipo;
+        document.querySelector("#t_cliente").innerHTML = listCliente;
+        console.log(data);
+      })
+      .catch(function (errors) {
+        console.error(errors);
+      })
+    }
 })
 function saveFile(f) {
   const file = f.files[0];
@@ -124,18 +177,20 @@ function saveFile(f) {
         $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
       });
 
-      var script_url = "https://script.google.com/a/progen.com.co/macros/s/AKfycbwLzA5nDkqeOKCvqmL05rBWxMfg1ASgcsxU77Gr/exec";
 
-      $(document).ready(function (json) {
-        var url = script_url + "?action=read";
+      /*
+      var url = "https://prod-28.brazilsouth.logic.azure.com:443/workflows/be2d5679275e4f098a00f40ec0f04a29/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=P66ODxcUOPOzaI2KUyOHPF0AYDrTRl1nHU-XhAAI94o";
+
+      $(document).ready(function (data) {
         $.getJSON(url, function (json) {
+          console.log(json);
           var listID = "<option disabled selected>Selecciona una opción</option>";
           var listDep = "<option disabled selected>Selecciona una opción</option>";
           var listCat = "<option disabled selected>Selecciona una opción</option>";
           var listEquipo = "<option disabled selected>Selecciona una opción</option>";
           var listCliente = "<option disabled selected>Selecciona una opción</option>";
           
-          for (var i = 0; i < json.records.length; i++) {
+          for (var i = 0; i < json.value.length; i++) {
             if (json.records[i].Identificacion != '') {
               listID += "<option value='" + json.records[i].Identificacion + "'>" + json.records[i].Identificacion + "</option>";
             }
@@ -168,4 +223,4 @@ function saveFile(f) {
           $("#Equipos").html(listEquipo);
           $("#t_cliente").html(listCliente);
         });
-      });
+      });*/
