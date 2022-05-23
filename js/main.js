@@ -12,7 +12,7 @@ window.addEventListener('load', function () {
     const url = 'https://prod-23.brazilsouth.logic.azure.com:443/workflows/173e479768634895b9603f0acaa8927f/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=9z6PMT_1dXq1JSpLLW3S1bRKjCrPq-B4Sy84LsvaLzc';
     var data = {};
     /*-------------------------------------------------------------------------------------------- */
-    /*                                       Enviar Peticion                                       */
+    /*                                  Configurar la Petición                                     */
     /*-------------------------------------------------------------------------------------------- */
     form.addEventListener('submit', function (event) {
           event.preventDefault();
@@ -74,6 +74,10 @@ window.addEventListener('load', function () {
         enviarPeticion(settings);
     })
 
+    /*-------------------------------------------------------------------------------------------- */
+    /*                                       Enviar Peticion                                       */
+    /*-------------------------------------------------------------------------------------------- */
+
     function enviarPeticion(settings) {
         fetch(url, settings)
         .then(response => {
@@ -95,6 +99,10 @@ window.addEventListener('load', function () {
             document.getElementById('mensaje').innerHTML='Algo salio mal.... Recargue la pagina e intete nuevamente<br>' + err;
         })
     }
+
+    /*-------------------------------------------------------------------------------------------- */
+    /*                             Obtener Datos de la Base de datos                               */
+    /*-------------------------------------------------------------------------------------------- */
 
     function obtenerDatos() {
       var url = "https://prod-28.brazilsouth.logic.azure.com:443/workflows/be2d5679275e4f098a00f40ec0f04a29/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=P66ODxcUOPOzaI2KUyOHPF0AYDrTRl1nHU-XhAAI94o";
@@ -147,80 +155,38 @@ window.addEventListener('load', function () {
       })
     }
 })
-function saveFile(f) {
-  const file = f.files[0];
-  console.log(file.stream());
-  const fr = new FileReader();
-  fr.addEventListener("load", function () {
-    let contenido = fr.result.split(",");
-    const obj = {
-      filename: file.name,
-      mimeType: file.type,
-      contenido: {
-        "$content-type" : file.type,
-        "$content" : contenido[1]
+
+    /*-------------------------------------------------------------------------------------------- */
+    /*                                  Funciones Adicionales                                      */
+    /*-------------------------------------------------------------------------------------------- */
+
+    /*--------------------------------  Guardar Archivo en Array  ---------------------------------*/
+    function saveFile(f) {
+      const file = f.files[0];
+      console.log(file.stream());
+      const fr = new FileReader();
+      fr.addEventListener("load", function () {
+        let contenido = fr.result.split(",");
+        const obj = {
+          filename: file.name,
+          mimeType: file.type,
+          contenido: {
+            "$content-type" : file.type,
+            "$content" : contenido[1]
+          }
+        };
+        archivo.push(obj);
+        
+      }, false);
+
+      if (file) {
+        fr.readAsDataURL(file);
       }
-    };
-    archivo.push(obj);
-    
-  }, false);
+      console.log(archivo)
+    }
 
-  if (file) {
-    fr.readAsDataURL(file);
-  }
-  console.log(archivo)
-}
-
-      // Add the following code if you want the name of the file appear on select
+      // Nombre del archivo al seleccionarlo
       $(".custom-file-input").on("change", function () {
         var fileName = $(this).val().split("\\").pop();
         $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
       });
-
-
-      /*
-      var url = "https://prod-28.brazilsouth.logic.azure.com:443/workflows/be2d5679275e4f098a00f40ec0f04a29/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=P66ODxcUOPOzaI2KUyOHPF0AYDrTRl1nHU-XhAAI94o";
-
-      $(document).ready(function (data) {
-        $.getJSON(url, function (json) {
-          console.log(json);
-          var listID = "<option disabled selected>Selecciona una opción</option>";
-          var listDep = "<option disabled selected>Selecciona una opción</option>";
-          var listCat = "<option disabled selected>Selecciona una opción</option>";
-          var listEquipo = "<option disabled selected>Selecciona una opción</option>";
-          var listCliente = "<option disabled selected>Selecciona una opción</option>";
-          
-          for (var i = 0; i < json.value.length; i++) {
-            if (json.records[i].Identificacion != '') {
-              listID += "<option value='" + json.records[i].Identificacion + "'>" + json.records[i].Identificacion + "</option>";
-            }
-          }
-          for (var i = 0; i < json.records.length; i++) {
-            if (json.records[i].Departamento != '') {
-              listDep += "<option value='" + json.records[i].Departamento + "'>" + json.records[i].Departamento + "</option>";
-            }            
-          }
-          for (var i = 0; i < json.records.length; i++) {
-            if (json.records[i].Requerimiento != '') {
-              listCat += "<option value='" + json.records[i].Requerimiento + "'>" + json.records[i].Requerimiento + "</option>";
-            } 
-          }
-          for (var i = 0; i < json.records.length; i++) {
-            if (json.records[i].Equipos != '') {
-              listEquipo += "<option value='" + json.records[i].Equipos + "'>" + json.records[i].Equipos + "</option>";
-            }            
-          }
-          for (var i = 0; i < json.records.length; i++) {
-            if (json.records[i].Tipo_cliente != '') {
-              listCliente += "<option value='" + json.records[i].Tipo_cliente + "'>" + json.records[i].Tipo_cliente + "</option>";
-            }            
-          }
-
-          console.log(listCliente)
-          $("#ID").html(listID);
-          $("#Departamento").html(listDep);
-          $("#categoria_requerimiento").html(listCat);
-          $("#Equipos").html(listEquipo);
-          $("#t_cliente").html(listCliente);
-        });
-      });*/
