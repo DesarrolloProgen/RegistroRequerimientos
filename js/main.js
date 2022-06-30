@@ -4,7 +4,7 @@ window.addEventListener('load', function () {
     /* ---------------------Declaración de Variables ------------------------------ */
     const form = document.forms[0];
     let now = new Date();
-    let fecha = now.getDate() + '/' + (now.getMonth() + 1) + '' + now.getFullYear();
+    let fecha = now.getDate() + '/' + (now.getMonth() + 1) + '/' + now.getFullYear();
     let minutos = now.getMinutes()
     if(minutos<10) minutos="0"+minutos;
     let hora = now.getHours() + ':' + minutos;
@@ -37,6 +37,7 @@ window.addEventListener('load', function () {
               telefono: telefono.value,
               politica: politica.checked,
               archivo: archivo,
+              archivoFactura: archivoFactura,
               linea: "RoyalCondor"
             }
           }else{
@@ -162,6 +163,31 @@ window.addEventListener('load', function () {
 
     /*--------------------------------  Guardar Archivo en Array  ---------------------------------*/
     function saveFile(f) {
+      const file = f.files[0];
+      console.log(file.stream());
+      const fr = new FileReader();
+      fr.addEventListener("load", function () {
+        let contenido = fr.result.split(",");
+        const obj = {
+          filename: file.name,
+          mimeType: file.type,
+          contenido: {
+            "$content-type" : file.type,
+            "$content" : contenido[1]
+          }
+        };
+        archivo.push(obj);
+        
+      }, false);
+
+      if (file) {
+        fr.readAsDataURL(file);
+      }
+      console.log(archivo)
+    }
+
+    /*--------------------------------  Guardar Archivo de Factura  ---------------------------------*/
+    function saveFileFactura(f) {
       const file = f.files[0];
       console.log(file.stream());
       const fr = new FileReader();

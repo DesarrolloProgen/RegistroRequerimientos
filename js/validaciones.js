@@ -20,6 +20,7 @@ const file = document.getElementById("customFile");
 const politica = document.getElementById("politica");
 const buttonSubmit = document.getElementById("boton");
 let archivo = [];
+let archivoFactura = [];
 
 /* ------------------------------------------------------------------------------------- */
 /*                                       VALIDACIONES                                    */
@@ -182,14 +183,6 @@ function validaciones() {
     }
 
     /*Politica de tratamiento de Datos */
-
-    if (politica.checked == false) {
-          document.getElementById("headermensaje").style.background = '#ff3c37';
-          document.getElementById('titulomensaje').innerHTML='ERROR';
-          document.getElementById('mensaje').innerHTML='Tiene que leer la política de protección de datos';
-          $(".custom-file-label").addClass("selected").html("Choose File");
-          return false;
-      }
     return true;
 }
 
