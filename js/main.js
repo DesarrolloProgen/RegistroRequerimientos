@@ -59,6 +59,7 @@ window.addEventListener('load', function () {
               tipo_cliente: tipo_cliente.value,
               politica: politica.checked,
               archivo: "",
+              archivoFactura: "",
               linea: "RoyalCondor"
             }
           }
