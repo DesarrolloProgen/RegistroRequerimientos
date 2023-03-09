@@ -9,7 +9,7 @@ window.addEventListener('load', function () {
     if(minutos<10) minutos="0"+minutos;
     let hora = now.getHours() + ':' + minutos;
     let fechayHora = fecha + ' ' + hora;
-    const url = 'https://prod-23.brazilsouth.logic.azure.com:443/workflows/173e479768634895b9603f0acaa8927f/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=9z6PMT_1dXq1JSpLLW3S1bRKjCrPq-B4Sy84LsvaLzc';
+    const url = 'https://prod-23.brazilsouth.logic.azure.com:443/workflows/173e479768634895b9603f0acaa8927f/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=9z6PMT_1dXq1JSpLLW3S1bRKjCrPq-B4Sy84LsvaLzc&pais=Colombia';
     var data = {};
     /*-------------------------------------------------------------------------------------------- */
     /*                                  Configurar la Petición                                     */
