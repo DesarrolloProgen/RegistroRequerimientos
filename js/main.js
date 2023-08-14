@@ -18,7 +18,7 @@ window.addEventListener('load', function () {
           event.preventDefault();
           console.log(validaciones());
           if (!validaciones()) return false;
-          if(c_requerimiento.value == "Reclamo - Producto No Conforme"){
+          if(c_requerimiento.value == "Reclamo / Producto No Conforme"){
             data = {
               fecha: fechayHora,
               nombre: nombre.value,
@@ -38,6 +38,7 @@ window.addEventListener('load', function () {
               politica: politica.checked,
               archivo: archivo,
               archivoFactura: archivoFactura,
+              punto_venta: punto_venta.value,
               linea: "RoyalCondor"
             }
           }else{
@@ -57,6 +58,7 @@ window.addEventListener('load', function () {
               detalle: detalle_requerimiento.value,
               telefono: telefono.value,
               tipo_cliente: tipo_cliente.value,
+              punto_venta: "",
               politica: politica.checked,
               archivo: "",
               archivoFactura: "",
@@ -115,7 +117,7 @@ window.addEventListener('load', function () {
       .then(function (data) {
         var listID = "<option disabled selected>Selecciona una opción</option>";
         var listDep = "<option disabled selected>Selecciona una opción</option>";
-        var listCat = "<option disabled selected>Selecciona una opción</option>";
+        var listCat = "<option disabled selected hidden>Selecciona una opción</option>";
         var listEquipo = "<option disabled selected>Selecciona una opción</option>";
         var listCliente = "<option disabled selected>Selecciona una opción</option>";
 
