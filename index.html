@@ -18,7 +18,7 @@
   <div class="row">
     <div class="col-md-4 offset-md-1">
         <label for="t_cliente" class="control-label">Tipo de Cliente</label>
-        <select id="t_cliente" name="t_cliente" class="form-control">
+        <select id="t_cliente" name="t_cliente" class="form-control"  onchange="tipoClienteOnchange(this)">
           <option disabled selected>Selecciona una opción</option>
         </select>
     </div>
@@ -66,9 +66,15 @@
     <!-- Fila Departamento y municipio-->
 
     <div class="row ">
-      <div class="col-md-4 offset-md-1">
+      <div class="col-md-4 offset-md-1" id="Depart">
         <label for="Departamento" class="control-label">Departamento</label>
         <select id="Departamento" name="Departamento" class="form-control">
+          <option disabled selected>Selecciona una opción</option>
+        </select>
+      </div>
+      <div class="col-md-4 offset-md-1" id="exportaciones" style="display:none;">
+        <label for="pais" class="control-label">País</label>
+        <select id="pais" name="pais" class="form-control">
           <option disabled selected>Selecciona una opción</option>
         </select>
       </div>

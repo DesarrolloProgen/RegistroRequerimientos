@@ -19,7 +19,8 @@ const telefono = document.getElementById("telefono");
 const file = document.getElementById("customFile");
 const politica = document.getElementById("politica");
 const buttonSubmit = document.getElementById("boton");
-const punto_venta = document.getElementById("punto_venta")
+const punto_venta = document.getElementById("punto_venta");
+const pais = document.getElementById("pais");
 let archivo = [];
 let archivoFactura = [];
 
@@ -111,7 +112,17 @@ function validaciones() {
 
   /* Departamento */
 
-  if (departamento.value == "Selecciona una opción") {
+  if (tipo_cliente.value != "Exportaciones" && departamento.value == "Selecciona una opción") {
+    document.getElementById("headermensaje").style.background = "#ff3c37";
+    document.getElementById("titulomensaje").innerHTML = "ERROR";
+    document.getElementById("mensaje").innerHTML = "Seleccione un departamento";
+    $(".custom-file-label").addClass("selected").html("Choose File");
+    return false;
+  }
+
+  /* Departamento */
+  
+  if (tipo_cliente.value == "Exportaciones" && pais.value == "Selecciona una opción") {
     document.getElementById("headermensaje").style.background = "#ff3c37";
     document.getElementById("titulomensaje").innerHTML = "ERROR";
     document.getElementById("mensaje").innerHTML = "Seleccione un departamento";
@@ -242,7 +253,7 @@ function ticketOnchange(sel) {
     divGarantia.style.display = "";
     info += descripcionCategoria['Reclamo'];
     document.getElementById("helpCategoria").innerHTML = info
-    
+
   } else {
     divGarantia.style.display = "none";
     info += descripcionCategoria[sel.value];
@@ -265,4 +276,18 @@ function cargando() {
   document.getElementById("titulomensaje").innerHTML = "Cargando";
   document.getElementById("mensaje").innerHTML =
     '<img src="https://acegif.com/wp-content/uploads/loading-25.gif" alt="Cargando" width="50px" height="50px"><span style="padding-left: 10px">Cargando...</span>';
+}
+
+function tipoClienteOnchange(seleccion) {
+  divexportacions = document.getElementById("exportaciones");
+  divDepartamento = document.getElementById("Depart");
+  if (seleccion.value == "Exportaciones") {
+    divexportacions.style.display = "";
+    divDepartamento.style.display = "none";
+  }
+  else {
+    divexportacions.style.display = "none";
+    divDepartamento.style.display = "";
+
+  }
 }

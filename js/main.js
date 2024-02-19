@@ -25,7 +25,7 @@ window.addEventListener('load', function () {
               correo: correo.value,
               ID: ID.value,
               NID: NID.value,
-              departamento: departamento.value,
+              departamento: tipo_cliente.value == "Exportaciones" ? pais.value : departamento.value,
               municipio: municipio.value,
               direccion: direccion.value,
               c_requerimiento: c_requerimiento.value,
@@ -48,7 +48,7 @@ window.addEventListener('load', function () {
               correo: correo.value,
               ID: ID.value,
               NID: NID.value,
-              departamento: departamento.value,
+              departamento: tipo_cliente.value == "Exportaciones" ? pais.value : departamento.value,
               municipio: municipio.value,
               direccion: direccion.value,
               c_requerimiento: c_requerimiento.value,
@@ -75,7 +75,7 @@ window.addEventListener('load', function () {
         }
         console.log(data);
         cargando();
-        enviarPeticion(settings);
+        // enviarPeticion(settings);
     })
 
     /*-------------------------------------------------------------------------------------------- */
@@ -120,6 +120,7 @@ window.addEventListener('load', function () {
         var listCat = "<option disabled selected hidden>Selecciona una opción</option>";
         var listEquipo = "<option disabled selected>Selecciona una opción</option>";
         var listCliente = "<option disabled selected>Selecciona una opción</option>";
+        var listPaises = "<option disabled selected>Selecciona una opción</option>";
 
         for (var i = 0; i < data.value.length; i++) {
           if (data.value[i].Identificacion != '') {
@@ -147,11 +148,17 @@ window.addEventListener('load', function () {
             listCliente += "<option value='" + data.value[i].Tipo_cliente + "'>" + data.value[i].Tipo_cliente + "</option>";
           }            
         }
+        for (var i = 0; i < data.value.length; i++) {
+          if (data.value[i].Paises != '') {
+            listPaises += "<option value='" + data.value[i].Paises + "'>" + data.value[i].Paises + "</option>";
+          }
+        }
         document.querySelector("#ID").innerHTML = listID;
         document.querySelector("#Departamento").innerHTML = listDep;
         document.querySelector("#categoria_requerimiento").innerHTML = listCat;
         document.querySelector("#Equipos").innerHTML = listEquipo;
         document.querySelector("#t_cliente").innerHTML = listCliente;
+        document.querySelector("#pais").innerHTML = listPaises;
         console.log(data);
       })
       .catch(function (errors) {
