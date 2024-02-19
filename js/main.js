@@ -25,7 +25,7 @@ window.addEventListener('load', function () {
               correo: correo.value,
               ID: ID.value,
               NID: NID.value,
-              departamento: tipo_cliente.value == "Exportaciones" ? pais.value : departamento.value,
+              departamento: tipo_cliente.value == "Mercados Internacionales" ? pais.value : departamento.value,
               municipio: municipio.value,
               direccion: direccion.value,
               c_requerimiento: c_requerimiento.value,
@@ -48,7 +48,7 @@ window.addEventListener('load', function () {
               correo: correo.value,
               ID: ID.value,
               NID: NID.value,
-              departamento: tipo_cliente.value == "Exportaciones" ? pais.value : departamento.value,
+              departamento: tipo_cliente.value == "Mercados Internacionales" ? pais.value : departamento.value,
               municipio: municipio.value,
               direccion: direccion.value,
               c_requerimiento: c_requerimiento.value,
@@ -75,7 +75,7 @@ window.addEventListener('load', function () {
         }
         console.log(data);
         cargando();
-        // enviarPeticion(settings);
+        enviarPeticion(settings);
     })
 
     /*-------------------------------------------------------------------------------------------- */

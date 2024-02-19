@@ -112,7 +112,7 @@ function validaciones() {
 
   /* Departamento */
 
-  if (tipo_cliente.value != "Exportaciones" && departamento.value == "Selecciona una opción") {
+  if (tipo_cliente.value != "Mercados Internacionales" && departamento.value == "Selecciona una opción") {
     document.getElementById("headermensaje").style.background = "#ff3c37";
     document.getElementById("titulomensaje").innerHTML = "ERROR";
     document.getElementById("mensaje").innerHTML = "Seleccione un departamento";
@@ -122,7 +122,7 @@ function validaciones() {
 
   /* Departamento */
   
-  if (tipo_cliente.value == "Exportaciones" && pais.value == "Selecciona una opción") {
+  if (tipo_cliente.value == "Mercados Internacionales" && pais.value == "Selecciona una opción") {
     document.getElementById("headermensaje").style.background = "#ff3c37";
     document.getElementById("titulomensaje").innerHTML = "ERROR";
     document.getElementById("mensaje").innerHTML = "Seleccione un departamento";
@@ -281,7 +281,7 @@ function cargando() {
 function tipoClienteOnchange(seleccion) {
   divexportacions = document.getElementById("exportaciones");
   divDepartamento = document.getElementById("Depart");
-  if (seleccion.value == "Exportaciones") {
+  if (seleccion.value == "Mercados Internacionales") {
     divexportacions.style.display = "";
     divDepartamento.style.display = "none";
   }
