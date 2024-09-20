@@ -281,13 +281,19 @@ function cargando() {
 function tipoClienteOnchange(seleccion) {
   divexportacions = document.getElementById("exportaciones");
   divDepartamento = document.getElementById("Depart");
+  divEquipos = document.getElementById("divEquipos");
+  divEquiposInternacionales = document.getElementById("divEquiposInternacionales");
   if (seleccion.value == "Mercados Internacionales") {
     divexportacions.style.display = "";
     divDepartamento.style.display = "none";
+    divEquiposInternacionales.style.display = "";
+    divEquipos.style.display = "none";
   }
   else {
     divexportacions.style.display = "none";
     divDepartamento.style.display = "";
+    divEquiposInternacionales.style.display = "none";
+    divEquipos.style.display = "";
 
   }
 }

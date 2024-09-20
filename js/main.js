@@ -119,6 +119,7 @@ window.addEventListener('load', function () {
         var listDep = "<option disabled selected>Selecciona una opción</option>";
         var listCat = "<option disabled selected hidden>Selecciona una opción</option>";
         var listEquipo = "<option disabled selected>Selecciona una opción</option>";
+        var listEquipoInternacionales = "<option disabled selected>Selecciona una opción</option>";
         var listCliente = "<option disabled selected>Selecciona una opción</option>";
         var listPaises = "<option disabled selected>Selecciona una opción</option>";
 
@@ -144,6 +145,11 @@ window.addEventListener('load', function () {
           }            
         }
         for (var i = 0; i < data.value.length; i++) {
+          if (data.value[i].Equipos_Internacionales != '') {
+            listEquipoInternacionales += "<option value='" + data.value[i].Equipos_Internacionales + "'>" + data.value[i].Equipos_Internacionales + "</option>";
+          }            
+        }
+        for (var i = 0; i < data.value.length; i++) {
           if (data.value[i].Tipo_cliente != '') {
             listCliente += "<option value='" + data.value[i].Tipo_cliente + "'>" + data.value[i].Tipo_cliente + "</option>";
           }            
@@ -157,6 +163,7 @@ window.addEventListener('load', function () {
         document.querySelector("#Departamento").innerHTML = listDep;
         document.querySelector("#categoria_requerimiento").innerHTML = listCat;
         document.querySelector("#Equipos").innerHTML = listEquipo;
+        document.querySelector("#EquiposInternacionales").innerHTML = listEquipoInternacionales;
         document.querySelector("#t_cliente").innerHTML = listCliente;
         document.querySelector("#pais").innerHTML = listPaises;
         console.log(data);
