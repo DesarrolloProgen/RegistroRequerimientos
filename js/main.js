@@ -29,7 +29,7 @@ window.addEventListener('load', function () {
               municipio: municipio.value,
               direccion: direccion.value,
               c_requerimiento: c_requerimiento.value,
-              equipos: equipos.value,
+              equipos: tipo_cliente.value == "Mercados Internacionales" ?   equiposInternacionales.value : equipos.value,
               serial: serial.value,
               detalle: detalle_requerimiento.value,
               tipo_cliente: tipo_cliente.value,

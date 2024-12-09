@@ -11,6 +11,7 @@ const municipio = document.getElementById("municipio");
 const direccion = document.getElementById("direccion");
 const c_requerimiento = document.getElementById("categoria_requerimiento");
 const equipos = document.getElementById("Equipos");
+const equiposInternacionales = document.getElementById("EquiposInternacionales");
 const serial = document.getElementById("serial");
 const detalle_requerimiento = document.getElementById("detalle_requerimiento");
 const tipo_cliente = document.getElementById("t_cliente");
@@ -166,13 +167,22 @@ function validaciones() {
     if (c_requerimiento.value == "Reclamo / Producto No Conforme") {
       /*Equipos del reclamo */
 
-      if (equipos.value == "Selecciona una opción" || equipos.value == null) {
+      if (t_cliente.value != "Mercados Internacionales" && equipos.value == "Selecciona una opción" || equipos.value == null ) {
         document.getElementById("headermensaje").style.background = "#ff3c37";
         document.getElementById("titulomensaje").innerHTML = "ERROR";
         document.getElementById("mensaje").innerHTML = "Seleccione un Equipo";
         $(".custom-file-label").addClass("selected").html("Choose File");
         return false;
       }
+
+      if (t_cliente.value === "Mercados Internacionales" && equiposInternacionales.value == "Selecciona una opción" || equiposInternacionales.value == null ) {
+        document.getElementById("headermensaje").style.background = "#ff3c37";
+        document.getElementById("titulomensaje").innerHTML = "ERROR";
+        document.getElementById("mensaje").innerHTML = "Seleccione un Equipo";
+        $(".custom-file-label").addClass("selected").html("Choose File");
+        return false;
+      }
+
       if (equipos.value != "Accesorios" && equipos.value != "Repuestos") {
         /* Serial del equipo */
         // if (serial.value == "" || serial.value == null) {
