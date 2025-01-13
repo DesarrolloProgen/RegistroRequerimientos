@@ -88,7 +88,7 @@ window.addEventListener('load', function () {
             let resp = await response.json();
             document.getElementById("headermensaje").style.background = '#6EF05F';
             document.getElementById('titulomensaje').innerHTML='Realizado';
-            document.getElementById('mensaje').innerHTML='Se realizó correctamente su registro. La PQRSF asignada a su solicitud es: ' + resp.registro + "\n Las PQSR registradas entre el 17 de diciembre de 2024 y 12 de enero de 2025, comenzaran a ser tramitadas a partir del 13 de enero de 2025. Esto por cierre de actividades de 2024, agradecemos su comprención";   
+            document.getElementById('mensaje').innerHTML='Se realizó correctamente su registro. La PQRSF asignada a su solicitud es: ' + resp.registro;   
             document.getElementById("formulario").reset();
             $(".custom-file-label").addClass("selected").html("Choose File");
             archivo = [];
