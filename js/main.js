@@ -39,7 +39,8 @@ window.addEventListener('load', function () {
               archivo: archivo,
               archivoFactura: archivoFactura,
               punto_venta: punto_venta.value,
-              linea: "RoyalCondor"
+              linea: "RoyalCondor",
+              linea_comercial : ""
             }
           }else{
             data = {
