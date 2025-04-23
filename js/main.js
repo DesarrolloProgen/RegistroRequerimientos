@@ -62,7 +62,8 @@ window.addEventListener('load', function () {
               politica: politica.checked,
               archivo: "",
               archivoFactura: "",
-              linea: "RoyalCondor"
+              linea: "RoyalCondor",
+              linea_comercial : linea_comercial.value
             }
           }
         
@@ -122,6 +123,7 @@ window.addEventListener('load', function () {
         var listEquipoInternacionales = "<option disabled selected>Selecciona una opción</option>";
         var listCliente = "<option disabled selected>Selecciona una opción</option>";
         var listPaises = "<option disabled selected>Selecciona una opción</option>";
+        var listLineaComercial = "<option disabled selected>Selecciona una opción</option>";
 
         for (var i = 0; i < data.value.length; i++) {
           if (data.value[i].Identificacion != '') {
@@ -159,12 +161,18 @@ window.addEventListener('load', function () {
             listPaises += "<option value='" + data.value[i].Paises + "'>" + data.value[i].Paises + "</option>";
           }
         }
+        for (var i = 0; i < data.value.length; i++) {
+          if (data.value[i].Linea_Comercial != '') {
+            listLineaComercial += "<option value='" + data.value[i].Linea_Comercial + "'>" + data.value[i].Linea_Comercial + "</option>";
+          }
+        }
         document.querySelector("#ID").innerHTML = listID;
         document.querySelector("#Departamento").innerHTML = listDep;
         document.querySelector("#categoria_requerimiento").innerHTML = listCat;
         document.querySelector("#Equipos").innerHTML = listEquipo;
         document.querySelector("#EquiposInternacionales").innerHTML = listEquipoInternacionales;
         document.querySelector("#t_cliente").innerHTML = listCliente;
+        document.querySelector("#linea_comercial").innerHTML = listLineaComercial;
         document.querySelector("#pais").innerHTML = listPaises;
         console.log(data);
       })

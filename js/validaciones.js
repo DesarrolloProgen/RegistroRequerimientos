@@ -11,7 +11,9 @@ const municipio = document.getElementById("municipio");
 const direccion = document.getElementById("direccion");
 const c_requerimiento = document.getElementById("categoria_requerimiento");
 const equipos = document.getElementById("Equipos");
-const equiposInternacionales = document.getElementById("EquiposInternacionales");
+const equiposInternacionales = document.getElementById(
+  "EquiposInternacionales"
+);
 const serial = document.getElementById("serial");
 const detalle_requerimiento = document.getElementById("detalle_requerimiento");
 const tipo_cliente = document.getElementById("t_cliente");
@@ -22,6 +24,7 @@ const politica = document.getElementById("politica");
 const buttonSubmit = document.getElementById("boton");
 const punto_venta = document.getElementById("punto_venta");
 const pais = document.getElementById("pais");
+const linea_comercial = document.getElementById("linea_comercial");
 let archivo = [];
 let archivoFactura = [];
 
@@ -113,7 +116,10 @@ function validaciones() {
 
   /* Departamento */
 
-  if (tipo_cliente.value != "Mercados Internacionales" && departamento.value == "Selecciona una opción") {
+  if (
+    tipo_cliente.value != "Mercados Internacionales" &&
+    departamento.value == "Selecciona una opción"
+  ) {
     document.getElementById("headermensaje").style.background = "#ff3c37";
     document.getElementById("titulomensaje").innerHTML = "ERROR";
     document.getElementById("mensaje").innerHTML = "Seleccione un departamento";
@@ -122,8 +128,11 @@ function validaciones() {
   }
 
   /* Departamento */
-  
-  if (tipo_cliente.value == "Mercados Internacionales" && pais.value == "Selecciona una opción") {
+
+  if (
+    tipo_cliente.value == "Mercados Internacionales" &&
+    pais.value == "Selecciona una opción"
+  ) {
     document.getElementById("headermensaje").style.background = "#ff3c37";
     document.getElementById("titulomensaje").innerHTML = "ERROR";
     document.getElementById("mensaje").innerHTML = "Seleccione un departamento";
@@ -167,7 +176,11 @@ function validaciones() {
     if (c_requerimiento.value == "Reclamo / Producto No Conforme") {
       /*Equipos del reclamo */
 
-      if (t_cliente.value != "Mercados Internacionales" && equipos.value == "Selecciona una opción" || equipos.value == null ) {
+      if (
+        (t_cliente.value != "Mercados Internacionales" &&
+          equipos.value == "Selecciona una opción") ||
+        equipos.value == null
+      ) {
         document.getElementById("headermensaje").style.background = "#ff3c37";
         document.getElementById("titulomensaje").innerHTML = "ERROR";
         document.getElementById("mensaje").innerHTML = "Seleccione un Equipo";
@@ -175,7 +188,11 @@ function validaciones() {
         return false;
       }
 
-      if (t_cliente.value === "Mercados Internacionales" && equiposInternacionales.value == "Selecciona una opción" || equiposInternacionales.value == null ) {
+      if (
+        (t_cliente.value === "Mercados Internacionales" &&
+          equiposInternacionales.value == "Selecciona una opción") ||
+        equiposInternacionales.value == null
+      ) {
         document.getElementById("headermensaje").style.background = "#ff3c37";
         document.getElementById("titulomensaje").innerHTML = "ERROR";
         document.getElementById("mensaje").innerHTML = "Seleccione un Equipo";
@@ -219,6 +236,17 @@ function validaciones() {
       if (file.value == null || file.value == "") {
         archivo = "";
       }
+    } else if (
+      c_requerimiento.value != "Felicitación" &&
+      (linea_comercial.value == "Selecciona una opción" ||
+        linea_comercial.value == null)
+    ) {
+      document.getElementById("headermensaje").style.background = "#ff3c37";
+      document.getElementById("titulomensaje").innerHTML = "ERROR";
+      document.getElementById("mensaje").innerHTML =
+        "Ingrese la linea comercial";
+      $(".custom-file-label").addClass("selected").html("Choose File");
+      return false;
     }
   }
 
@@ -245,8 +273,10 @@ function validaciones() {
 /* ------------------------------------------------------------------------------------- */
 
 function ticketOnchange(sel) {
-  divGarantia = document.getElementById("seccion_garantia");
-  let info = "<span>" + sel.value + ": </span>"
+  divGarantia = document.getElementById("divLineaComercial");
+  divLineaComercial = document.getElementById("seccion_garantia");
+
+  let info = "<span>" + sel.value + ": </span>";
   descripcionCategoria = {
     Petición:
       "La petición es una solicitud para que se realicen algún tipo de acción o simplemente solicitar cierta información.",
@@ -260,12 +290,18 @@ function ticketOnchange(sel) {
       "Comunicación positiva frente a los productos y/o servicios ofrecidos, también por la atención brindada por un colaborador.",
   };
   if (sel.value == "Reclamo / Producto No Conforme") {
-    divGarantia.style.display = "";
-    info += descripcionCategoria['Reclamo'];
-    document.getElementById("helpCategoria").innerHTML = info
-
-  } else {
     divGarantia.style.display = "none";
+    divLineaComercial.style.display = "";
+    info += descripcionCategoria["Reclamo"];
+    document.getElementById("helpCategoria").innerHTML = info;
+  } else if (sel.value == "Felicitación") {
+    divLineaComercial.style.display = "none";
+    divGarantia.style.display = "none";
+    info += descripcionCategoria[sel.value];
+    document.getElementById("helpCategoria").innerHTML = info;
+  } else {
+    divLineaComercial.style.display = "none";
+    divGarantia.style.display = "";
     info += descripcionCategoria[sel.value];
     document.getElementById("helpCategoria").innerHTML = info;
   }
@@ -292,18 +328,18 @@ function tipoClienteOnchange(seleccion) {
   divexportacions = document.getElementById("exportaciones");
   divDepartamento = document.getElementById("Depart");
   divEquipos = document.getElementById("divEquipos");
-  divEquiposInternacionales = document.getElementById("divEquiposInternacionales");
+  divEquiposInternacionales = document.getElementById(
+    "divEquiposInternacionales"
+  );
   if (seleccion.value == "Mercados Internacionales") {
     divexportacions.style.display = "";
     divDepartamento.style.display = "none";
     divEquiposInternacionales.style.display = "";
     divEquipos.style.display = "none";
-  }
-  else {
+  } else {
     divexportacions.style.display = "none";
     divDepartamento.style.display = "";
     divEquiposInternacionales.style.display = "none";
     divEquipos.style.display = "";
-
   }
 }
