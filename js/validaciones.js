@@ -25,6 +25,75 @@ const buttonSubmit = document.getElementById("boton");
 const punto_venta = document.getElementById("punto_venta");
 const pais = document.getElementById("pais");
 const linea_comercial = document.getElementById("linea_comercial");
+const mayorista = document.getElementById("mayorista");
+
+const mayoristasPorDepartamento = [
+  { mayorista: "Agomark", departamentos: ["Tolima"] },
+  { mayorista: "Agroinfesa", departamentos: ["Bogotá D.C.", "Cundinamarca"] },
+  {
+    mayorista: "Agrointegral Andina S.A.",
+    departamentos: [
+      "Amazonas",
+      "Bogotá D.C.",
+      "Boyacá",
+      "Caldas",
+      "Cundinamarca",
+      "Nariño",
+      "Putumayo",
+      "Quindío",
+      "Risaralda",
+      "Valle del Cauca",
+    ],
+  },
+  { mayorista: "Agromark", departamentos: ["Huila"] },
+  { mayorista: "Alma G SAS / Globalagro", departamentos: ["Caquetá", "Meta"] },
+  { mayorista: "Argoz SAS", departamentos: ["Córdoba", "Sucre"] },
+  { mayorista: "Arkatec SAS", departamentos: ["Boyacá"] },
+  { mayorista: "Cadefihuila", departamentos: ["Huila"] },
+  { mayorista: "Cafenorte", departamentos: ["Valle del Cauca"] },
+  {
+    mayorista: "Coacosta",
+    departamentos: ["Atlántico", "Bolívar", "Cesar", "La Guajira", "Magdalena"],
+  },
+  { mayorista: "Coagrohuila", departamentos: ["Huila"] },
+  { mayorista: "Codegar", departamentos: ["Risaralda"] },
+  { mayorista: "Comité de Cafeteros de Caldas", departamentos: ["Caldas"] },
+  { mayorista: "Comité de Cafeteros del Quindío", departamentos: ["Quindío"] },
+  { mayorista: "Coocentral", departamentos: ["Huila"] },
+  {
+    mayorista: "Cooperativa de Caficultores de Risaralda",
+    departamentos: ["Risaralda"],
+  },
+  { mayorista: "Cosechar", departamentos: ["Casanare"] },
+  { mayorista: "Fumiagro", departamentos: ["Tolima"] },
+  { mayorista: "Fumigadoras del Oriente", departamentos: ["Meta"] },
+  {
+    mayorista: "Grupo Mi Corral",
+    departamentos: ["Atlántico", "Bolívar", "Cesar", "La Guajira", "Magdalena"],
+  },
+  {
+    mayorista: "MP Galagro SAS",
+    departamentos: ["Antioquia", "Boyacá", "Chocó", "Córdoba", "Sucre"],
+  },
+  { mayorista: "Multiagro", departamentos: ["Cauca"] },
+  {
+    mayorista: "PROGEN - Directo",
+    departamentos: ["Chocó", "Guainía", "Guaviare", "Meta", "Vaupés"],
+  },
+  { mayorista: "Sagrinco SAS", departamentos: ["Antioquia"] },
+  {
+    mayorista: "Superagro",
+    departamentos: [
+      "Arauca",
+      "Bolívar",
+      "Boyacá",
+      "Cesar",
+      "Norte de Santander",
+      "Santander",
+    ],
+  },
+  { mayorista: "Vitagro", departamentos: ["Bogotá D.C.", "Cundinamarca"] },
+];
 let archivo = [];
 let archivoFactura = [];
 
@@ -146,6 +215,17 @@ function validaciones() {
     document.getElementById("headermensaje").style.background = "#ff3c37";
     document.getElementById("titulomensaje").innerHTML = "ERROR";
     document.getElementById("mensaje").innerHTML = "Escriba un municipio";
+    $(".custom-file-label").addClass("selected").html("Choose File");
+    return false;
+  }
+
+  if (
+    tipo_cliente.value === "Distribuidor Autorizado" &&
+    departamento.value !== "Selecciona una opción" && mayorista.value === "Selecciona una opción"
+  ) {
+    document.getElementById("headermensaje").style.background = "#ff3c37";
+    document.getElementById("titulomensaje").innerHTML = "ERROR";
+    document.getElementById("mensaje").innerHTML = "Seleccione un Mayorista";
     $(".custom-file-label").addClass("selected").html("Choose File");
     return false;
   }
@@ -341,5 +421,47 @@ function tipoClienteOnchange(seleccion) {
     divDepartamento.style.display = "";
     divEquiposInternacionales.style.display = "none";
     divEquipos.style.display = "";
+  }
+  const seccionMayorista = document.getElementById("seccion_mayoristas");
+  if (seleccion.value !== "Distribuidor Autorizado") {
+    seccionMayorista.style.display = "none";
+  }
+}
+
+function departamentoOnchange(seleccion) {
+  var tipo_cliente = document.getElementById("t_cliente");
+
+  if (tipo_cliente.value === "Distribuidor Autorizado") {
+    const dep = seleccion.value;
+    const mayoristaSelect = document.getElementById("mayorista");
+    const seccionMayorista = document.getElementById("seccion_mayoristas");
+    seccionMayorista.style.display = "";
+    mayoristaSelect.innerHTML =
+      "<option disabled selected>Selecciona una opción</option>";
+
+    const mayoristas = mayoristasPorDepartamento
+      .filter((m) => m.departamentos.includes(dep))
+      .map((m) => m.mayorista);
+
+    if (mayoristas.length === 1) {
+      // Solo uno: selecciona automáticamente
+      mayoristaSelect.innerHTML = `<option selected>${mayoristas[0]}</option>`;
+      mayoristaSelect.disabled = true; // (Opcional) bloquear edición si solo hay uno
+    } else if (mayoristas.length > 1) {
+      // Varios: mostrar opciones
+      mayoristaSelect.disabled = false;
+      mayoristas.forEach((mayorista) => {
+        const option = document.createElement("option");
+        option.value = mayorista;
+        option.textContent = mayorista;
+        mayoristaSelect.appendChild(option);
+      });
+    } else {
+      // Ninguno: deja la opción por defecto
+      mayoristaSelect.disabled = true;
+    }
+  } else {
+    const seccionMayorista = document.getElementById("seccion_mayoristas");
+    seccionMayorista.style.display = "none";
   }
 }

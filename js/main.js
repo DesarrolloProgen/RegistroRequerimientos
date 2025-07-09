@@ -40,7 +40,8 @@ window.addEventListener('load', function () {
               archivoFactura: archivoFactura,
               punto_venta: punto_venta.value,
               linea: "RoyalCondor",
-              linea_comercial : ""
+              linea_comercial : "",
+              mayorista: tipo_cliente.value == "Distribuidor Autorizado" ? mayorista.value : "",
             }
           }else{
             data = {
@@ -64,7 +65,8 @@ window.addEventListener('load', function () {
               archivo: "",
               archivoFactura: "",
               linea: "RoyalCondor",
-              linea_comercial : linea_comercial.value
+              linea_comercial : linea_comercial.value,
+              mayorista: tipo_cliente.value == "Distribuidor Autorizado" ? mayorista.value : "",
             }
           }
         
@@ -77,7 +79,7 @@ window.addEventListener('load', function () {
         }
         console.log(data);
         cargando();
-        enviarPeticion(settings);
+        // enviarPeticion(settings);
     })
 
     /*-------------------------------------------------------------------------------------------- */
@@ -175,7 +177,7 @@ window.addEventListener('load', function () {
         document.querySelector("#t_cliente").innerHTML = listCliente;
         document.querySelector("#linea_comercial").innerHTML = listLineaComercial;
         document.querySelector("#pais").innerHTML = listPaises;
-        console.log(data);
+        
       })
       .catch(function (errors) {
         console.error(errors);

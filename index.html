@@ -105,8 +105,8 @@
 
       <div class="row">
         <div class="col-md-4 offset-md-1" id="Depart">
-          <label for="Departamento" class="control-label">Departamento</label>
-          <select id="Departamento" name="Departamento" class="form-control">
+          <label for="Departamento" class="control-label" >Departamento </label>
+          <select id="Departamento" name="Departamento" class="form-control" onchange="departamentoOnchange(this)">
             <option disabled selected>Selecciona una opción</option>
           </select>
         </div>
@@ -131,7 +131,14 @@
           />
         </div>
       </div>
-
+      <div class="row" id="seccion_mayoristas" style="display: none">
+        <div class="col-md-4 offset-md-1">
+          <label for="mayorista" class="control-label">Mayorista</label>
+          <select id="mayorista" name="mayorista" class="form-control">
+            <option disabled selected>Selecciona una opción</option>
+          </select>
+        </div>
+      </div>
       <!-- Fila Direccion-->
 
       <div class="row">
@@ -166,14 +173,18 @@
         <div class="col-md-4 helpCategoria" style="display: none">
           <small id="helpCategoria" class="text-muted"> </small>
         </div>
-        <div id="divLineaComercial" class="col-md-4 offset-md-1" style="display: none;">
+        <div
+          id="divLineaComercial"
+          class="col-md-4 offset-md-1"
+          style="display: none"
+        >
           <label for="linea_comercial" class="control-label"
             >Línea comercial</label
           >
           <select
             id="linea_comercial"
             name="linea_comercial"
-            class="form-control"  
+            class="form-control"
           >
             <option id="c_requerimiento">Selecciona una opción</option>
           </select>
