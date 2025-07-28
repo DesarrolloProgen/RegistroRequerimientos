@@ -18,7 +18,7 @@ window.addEventListener('load', function () {
           event.preventDefault();
           console.log(validaciones());
           if (!validaciones()) return false;
-          if(c_requerimiento.value == "Reclamo / Producto No Conforme"){
+          if(c_requerimiento.value == "Reclamo / Producto No Conforme" ){
             data = {
               fecha: fechayHora,
               nombre: nombre.value,
@@ -62,7 +62,7 @@ window.addEventListener('load', function () {
               tipo_cliente: tipo_cliente.value,
               punto_venta: "",
               politica: politica.checked,
-              archivo: "",
+              archivo: c_requerimiento.value == "Queja" ? archivo : "true",
               archivoFactura: "",
               linea: "RoyalCondor",
               linea_comercial : linea_comercial.value,

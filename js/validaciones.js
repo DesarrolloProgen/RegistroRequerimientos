@@ -221,7 +221,8 @@ function validaciones() {
 
   if (
     tipo_cliente.value === "Distribuidor Autorizado" &&
-    departamento.value !== "Selecciona una opción" && mayorista.value === "Selecciona una opción"
+    departamento.value !== "Selecciona una opción" &&
+    mayorista.value === "Selecciona una opción"
   ) {
     document.getElementById("headermensaje").style.background = "#ff3c37";
     document.getElementById("titulomensaje").innerHTML = "ERROR";
@@ -355,6 +356,7 @@ function validaciones() {
 function ticketOnchange(sel) {
   divGarantia = document.getElementById("divLineaComercial");
   divLineaComercial = document.getElementById("seccion_garantia");
+  divArchivos = document.getElementById("archivos");
 
   let info = "<span>" + sel.value + ": </span>";
   descripcionCategoria = {
@@ -371,16 +373,25 @@ function ticketOnchange(sel) {
   };
   if (sel.value == "Reclamo / Producto No Conforme") {
     divGarantia.style.display = "none";
+    divArchivos.style.display = "";
     divLineaComercial.style.display = "";
     info += descripcionCategoria["Reclamo"];
     document.getElementById("helpCategoria").innerHTML = info;
   } else if (sel.value == "Felicitación") {
     divLineaComercial.style.display = "none";
+    divArchivos.style.display = "none";
     divGarantia.style.display = "none";
+    info += descripcionCategoria[sel.value];
+    document.getElementById("helpCategoria").innerHTML = info;
+  } else if (sel.value == "Queja") {
+    divGarantia.style.display = "";
+    divLineaComercial.style.display = "none";
+    divArchivos.style.display = "";
     info += descripcionCategoria[sel.value];
     document.getElementById("helpCategoria").innerHTML = info;
   } else {
     divLineaComercial.style.display = "none";
+    divArchivos.style.display = "none";
     divGarantia.style.display = "";
     info += descripcionCategoria[sel.value];
     document.getElementById("helpCategoria").innerHTML = info;
