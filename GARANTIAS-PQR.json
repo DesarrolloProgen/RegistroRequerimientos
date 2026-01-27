@@ -1,0 +1,2670 @@
+{
+    "fallas": [
+        {
+            "Referencia": "AC01M_FS-401B",
+            "Fallas": [
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "Conector no enrosca "
+                },
+                {
+                    "Razon": "38 - Hilos Abollados",
+                    "Reportada": "Fugas de liquido"
+                },
+                {
+                    "Razon": "39 - Hilos Achatados",
+                    "Reportada": "conector obstruido "
+                },
+                {
+                    "Razon": "77 - Sin Rosca",
+                    "Reportada": "hilos defectuosos"
+                }
+            ]
+        },
+        {
+            "Referencia": "PR01C_26B-TRN-N",
+            "Fallas": [
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "fugas de liquido "
+                },
+                {
+                    "Razon": "20 - Dimensiones Fuera Tolerancia",
+                    "Reportada": "labio reventado "
+                },
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "retenedor no encaja "
+                },
+                {
+                    "Razon": "120 - Desgaste prematuro",
+                    "Reportada": "Cauchos rotos "
+                }
+            ]
+        },
+        {
+            "Referencia": "AC01C_CRT.MSC.PRF.PRTC",
+            "Fallas": [
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "piesas sueltas "
+                },
+                {
+                    "Razon": "139 - Piezas sueltas ",
+                    "Reportada": "cartuchos rotos "
+                },
+                {
+                    "Razon": "20 - Dimensiones Fuera Tolerancia",
+                    "Reportada": "Cartuchos no encajan "
+                },
+                {
+                    "Razon": "122 - Faltante Accesorios",
+                    "Reportada": "faltante"
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_TU26-2-38",
+            "Fallas": [
+                {
+                    "Razon": "15 - Descalibrado",
+                    "Reportada": "equipo no enciende"
+                },
+                {
+                    "Razon": "53 - Obstruido",
+                    "Reportada": "equipo no regula"
+                },
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "equipo presenta baja presion "
+                },
+                {
+                    "Razon": "131 - Circuito Abierto",
+                    "Reportada": "Equipo se apaga "
+                }
+            ]
+        },
+        {
+            "Referencia": "PR01C_RAC-864-20-V00",
+            "Fallas": [
+                {
+                    "Razon": "7 - Cajas de Cartón Defectuosas",
+                    "Reportada": "caja rota "
+                },
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "caja en mal estado "
+                },
+                {
+                    "Razon": "111 - Decoloramiento",
+                    "Reportada": "serigrafia defectuosa "
+                },
+                {
+                    "Razon": "115 - Arte diferente",
+                    "Reportada": "cajas mojadas "
+                }
+            ]
+        },
+        {
+            "Referencia": "PR01C_20015",
+            "Fallas": [
+                {
+                    "Razon": "56 - Oxidado",
+                    "Reportada": "agujas oxidadas "
+                },
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "agujas rotas"
+                },
+                {
+                    "Razon": "29 - Faltante/sobrante",
+                    "Reportada": "jeringa incompleta"
+                },
+                {
+                    "Razon": "",
+                    "Reportada": ""
+                }
+            ]
+        },
+        {
+            "Referencia": "PR01C_20014",
+            "Fallas": [
+                {
+                    "Razon": "56 - Oxidado",
+                    "Reportada": "agujas oxidadas "
+                },
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "agujas rotas"
+                },
+                {
+                    "Razon": "29 - Faltante/sobrante",
+                    "Reportada": "jeringa incompleta"
+                },
+                {
+                    "Razon": "",
+                    "Reportada": ""
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_RCP-001X",
+            "Fallas": [
+                {
+                    "Razon": "144 - Baja Preción",
+                    "Reportada": "equipo presenta baja presiom"
+                },
+                {
+                    "Razon": "120 - Desgaste prematuro",
+                    "Reportada": "equipo genera ruidos fuertes"
+                },
+                {
+                    "Razon": "56 - Oxidado",
+                    "Reportada": "equipo no enciende"
+                },
+                {
+                    "Razon": "139 - Piezas sueltas ",
+                    "Reportada": "Fugas de liquido "
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_29B-TRN",
+            "Fallas": [
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "fugas de liquido "
+                },
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "labio reventado "
+                },
+                {
+                    "Razon": "20 - Dimensiones Fuera Tolerancia",
+                    "Reportada": "retenedor no encaja "
+                },
+                {
+                    "Razon": "120 - Desgaste prematuro",
+                    "Reportada": "Retenedor no encaja "
+                }
+            ]
+        },
+        {
+            "Referencia": "PR01C_29B-TRN",
+            "Fallas": [
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "fugas de liquido "
+                },
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "labio reventado "
+                },
+                {
+                    "Razon": "120 - Desgaste prematuro",
+                    "Reportada": "retenedor no encaja "
+                },
+                {
+                    "Razon": "20 - Dimensiones Fuera Tolerancia",
+                    "Reportada": "Fugas de liquido"
+                }
+            ]
+        },
+        {
+            "Referencia": "TR01C_FS-526-100-N",
+            "Fallas": [
+                {
+                    "Razon": "61 - Poros",
+                    "Reportada": "maguera porosa "
+                },
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "fugas de liquido "
+                },
+                {
+                    "Razon": "128 - Grafado defectuoso Manguera",
+                    "Reportada": "manguera se soplo "
+                },
+                {
+                    "Razon": "25 - Estallada",
+                    "Reportada": "manguera se revento "
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_RC-346EX",
+            "Fallas": [
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "fugas de liquido "
+                },
+                {
+                    "Razon": "50 - Mecanizado Incompleto",
+                    "Reportada": "lanza no enrosca "
+                },
+                {
+                    "Razon": "1 - Abolladuras",
+                    "Reportada": "lanza se encuentra doblada "
+                },
+                {
+                    "Razon": "39 - Hilos Achatados",
+                    "Reportada": "tuerca mariposas sueltas "
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_BBD-KIT-6",
+            "Fallas": [
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "piesas  sueltas del flotador "
+                },
+                {
+                    "Razon": "30 - Fisuras",
+                    "Reportada": "bebedero no sella "
+                },
+                {
+                    "Razon": "139 - Piezas sueltas ",
+                    "Reportada": "Fugas de liquido "
+                },
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "flotador roto "
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_27FT-30B1",
+            "Fallas": [
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "fugas de liquido "
+                },
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "labio reventado "
+                },
+                {
+                    "Razon": "120 - Desgaste prematuro",
+                    "Reportada": "retenedor no encaja "
+                },
+                {
+                    "Razon": "20 - Dimensiones Fuera Tolerancia",
+                    "Reportada": "Empaque no sella "
+                }
+            ]
+        },
+        {
+            "Referencia": "PR01C_TU26-2-73-N",
+            "Fallas": [
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "manguera rota "
+                },
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "fugas de combustible "
+                },
+                {
+                    "Razon": "30 - Fisuras",
+                    "Reportada": "Fugas y escapes"
+                },
+                {
+                    "Razon": "120 - Desgaste prematuro",
+                    "Reportada": "Fugas de combustible "
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_RC-346EX-INX",
+            "Fallas": [
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "fugas de liquido "
+                },
+                {
+                    "Razon": "39 - Hilos Achatados",
+                    "Reportada": "lanza no enrosca "
+                },
+                {
+                    "Razon": "1 - Abolladuras",
+                    "Reportada": "lanza se encuentra doblada "
+                },
+                {
+                    "Razon": "41 - Hincado defectuoso",
+                    "Reportada": "tuerca mariposas sueltas "
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_TU26-2-75",
+            "Fallas": [
+                {
+                    "Razon": "139 - Piezas sueltas ",
+                    "Reportada": "malla suelta"
+                },
+                {
+                    "Razon": "53 - Obstruido",
+                    "Reportada": "Filtro obstruido "
+                },
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "Filtro roto "
+                },
+                {
+                    "Razon": "",
+                    "Reportada": ""
+                }
+            ]
+        },
+        {
+            "Referencia": "TR01M_CO-013-AZ",
+            "Fallas": [
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "equipo no genera presion"
+                },
+                {
+                    "Razon": "19 - Ovalamiento",
+                    "Reportada": "fugas de liquido "
+                },
+                {
+                    "Razon": "82 - Presión fuera de especificación",
+                    "Reportada": "Equipo presenta baja presión"
+                },
+                {
+                    "Razon": "65 - Rebabas",
+                    "Reportada": "Fugas y escapes"
+                }
+            ]
+        },
+        {
+            "Referencia": "AC02M_B1",
+            "Fallas": [
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "hilos defectuosos"
+                },
+                {
+                    "Razon": "39 - Hilos Achatados",
+                    "Reportada": "fugas de liquido "
+                },
+                {
+                    "Razon": "30 - Fisuras",
+                    "Reportada": "mango no enrosca "
+                },
+                {
+                    "Razon": "1 - Abolladuras",
+                    "Reportada": "No enrosca "
+                }
+            ]
+        },
+        {
+            "Referencia": "AC01M_FS-302",
+            "Fallas": [
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "fugas de liquido "
+                },
+                {
+                    "Razon": "39 - Hilos Achatados",
+                    "Reportada": "hilos defectuosos "
+                },
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "llave rota"
+                },
+                {
+                    "Razon": "30 - Fisuras",
+                    "Reportada": "llave no cierra "
+                }
+            ]
+        },
+        {
+            "Referencia": "PR01C_26B-TRN",
+            "Fallas": [
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "fugas de liquido "
+                },
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "labio reventado "
+                },
+                {
+                    "Razon": "20 - Dimensiones Fuera Tolerancia",
+                    "Reportada": "retenedor no encaja "
+                },
+                {
+                    "Razon": "120 - Desgaste prematuro",
+                    "Reportada": "Perdida de presión "
+                }
+            ]
+        },
+        {
+            "Referencia": "PR01C_10807-V01",
+            "Fallas": [
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "cajas en mal estados"
+                },
+                {
+                    "Razon": "115 - Arte diferente",
+                    "Reportada": "Serigrafía en mal estado "
+                },
+                {
+                    "Razon": "111 - Decoloramiento",
+                    "Reportada": "cajas mojadas "
+                },
+                {
+                    "Razon": "",
+                    "Reportada": ""
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_FT-30B1",
+            "Fallas": [
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "carcasa de  la bomba rotas"
+                },
+                {
+                    "Razon": "30 - Fisuras",
+                    "Reportada": "fugas y escapes "
+                },
+                {
+                    "Razon": "143 - Fractura cigueñal",
+                    "Reportada": "Bomba rota"
+                },
+                {
+                    "Razon": "",
+                    "Reportada": ""
+                }
+            ]
+        },
+        {
+            "Referencia": "PR01C_7B-TRN",
+            "Fallas": [
+                {
+                    "Razon": "61 - Poros",
+                    "Reportada": "equipo no genera presion "
+                },
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "equipo pierde presion "
+                },
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "fugas de liquido"
+                },
+                {
+                    "Razon": "56 - Oxidado",
+                    "Reportada": "camaea porsa "
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_RCP-621EX",
+            "Fallas": [
+                {
+                    "Razon": "116 - Voltaje fuera de especificaciones",
+                    "Reportada": "equipo no enciende "
+                },
+                {
+                    "Razon": "130 - Corto Circuito",
+                    "Reportada": "periila suelta "
+                },
+                {
+                    "Razon": "139 - Piezas sueltas ",
+                    "Reportada": "equipo pierde presion "
+                },
+                {
+                    "Razon": "133 - Conexones Sulfatadas",
+                    "Reportada": "Equipo no enciende"
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_TF-900-1-43",
+            "Fallas": [
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "equipo pierde presion "
+                },
+                {
+                    "Razon": "120 - Desgaste prematuro",
+                    "Reportada": "fugas de liquido "
+                },
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "cauchos rotos "
+                },
+                {
+                    "Razon": "30 - Fisuras",
+                    "Reportada": "Fugas y escapes"
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_TU26-2-28",
+            "Fallas": [
+                {
+                    "Razon": "130 - Corto Circuito",
+                    "Reportada": "equipo no enciende "
+                },
+                {
+                    "Razon": "56 - Oxidado",
+                    "Reportada": "equipo no genera chispa "
+                },
+                {
+                    "Razon": "131 - Circuito Abierto",
+                    "Reportada": "equipo se apaga "
+                },
+                {
+                    "Razon": "",
+                    "Reportada": ""
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_HB-11A",
+            "Fallas": [
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "fugasde liquido "
+                },
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "recipiente fisurado "
+                },
+                {
+                    "Razon": "30 - Fisuras",
+                    "Reportada": "recipiente roto "
+                },
+                {
+                    "Razon": "19 - Ovalamiento",
+                    "Reportada": "hilos defectusosos "
+                }
+            ]
+        },
+        {
+            "Referencia": "PR01C_27FT-22B1",
+            "Fallas": [
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "fugas de liquido "
+                },
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "labio reventado "
+                },
+                {
+                    "Razon": "20 - Dimensiones Fuera Tolerancia",
+                    "Reportada": "retenedor no encaja "
+                },
+                {
+                    "Razon": "",
+                    "Reportada": ""
+                }
+            ]
+        },
+        {
+            "Referencia": "PR01M_RCP-001E-01",
+            "Fallas": [
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "equipo presenta baja presiom"
+                },
+                {
+                    "Razon": "124 - Componentes mal ajustados",
+                    "Reportada": "equipo genera ruidos fuertes"
+                },
+                {
+                    "Razon": "56 - Oxidado",
+                    "Reportada": "equipo no enciende"
+                },
+                {
+                    "Razon": "139 - Piezas sueltas ",
+                    "Reportada": "Fugas de liquido "
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_RC-920EX",
+            "Fallas": [
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "llave rota"
+                },
+                {
+                    "Razon": "39 - Hilos Achatados",
+                    "Reportada": "fugas de liquido "
+                },
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "Llave rota"
+                },
+                {
+                    "Razon": "30 - Fisuras",
+                    "Reportada": "llave fisurada "
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_TU26-2-22",
+            "Fallas": [
+                {
+                    "Razon": "120 - Desgaste prematuro",
+                    "Reportada": "equipo pierde potencia "
+                },
+                {
+                    "Razon": "64 - Rayones",
+                    "Reportada": "equipo  vota humo"
+                },
+                {
+                    "Razon": "124 - Componentes mal ajustados",
+                    "Reportada": "equipo pierde presion "
+                },
+                {
+                    "Razon": "",
+                    "Reportada": ""
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_TF-900-1-63",
+            "Fallas": [
+                {
+                    "Razon": "120 - Desgaste prematuro",
+                    "Reportada": "equipo no genera presion "
+                },
+                {
+                    "Razon": "14 - Deformaciones",
+                    "Reportada": "equipo pierde presion"
+                },
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "fugas de liquido "
+                },
+                {
+                    "Razon": "",
+                    "Reportada": ""
+                }
+            ]
+        },
+        {
+            "Referencia": "PR01C_RPL-860-20-V00",
+            "Fallas": [
+                {
+                    "Razon": "7 - Cajas de Cartón Defectuosas",
+                    "Reportada": "caja rota "
+                },
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "caja en mal estado "
+                },
+                {
+                    "Razon": "111 - Decoloramiento",
+                    "Reportada": "serigrafia defectuosa "
+                },
+                {
+                    "Razon": "115 - Arte diferente",
+                    "Reportada": "cajas mojadas "
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01C_2050020105",
+            "Fallas": [
+                {
+                    "Razon": "15 - Descalibrado",
+                    "Reportada": "equipo no enciende"
+                },
+                {
+                    "Razon": "53 - Obstruido",
+                    "Reportada": "equipo no regula"
+                },
+                {
+                    "Razon": "120 - Desgaste prematuro",
+                    "Reportada": "equipo presenta baja presion "
+                },
+                {
+                    "Razon": "53 - Obstruido",
+                    "Reportada": "equipo pierde potencia "
+                }
+            ]
+        },
+        {
+            "Referencia": "PR01C_OS-25XZ-CNJ-BT",
+            "Fallas": [
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "bomba rota"
+                },
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "fugas de liquido "
+                },
+                {
+                    "Razon": "20 - Dimensiones Fuera Tolerancia",
+                    "Reportada": "ruidos fuertes "
+                },
+                {
+                    "Razon": "30 - Fisuras",
+                    "Reportada": "Fugas de liquido"
+                }
+            ]
+        },
+        {
+            "Referencia": "PR01C_TU26-TP.MITS.",
+            "Fallas": [
+                {
+                    "Razon": "129 - Motor Sin potencia",
+                    "Reportada": "motor pierde potencia"
+                },
+                {
+                    "Razon": "15 - Descalibrado",
+                    "Reportada": "equipo no enciende "
+                },
+                {
+                    "Razon": "139 - Piezas sueltas ",
+                    "Reportada": "motor bloqueado "
+                },
+                {
+                    "Razon": "61 - Poros",
+                    "Reportada": "Fugas de combustible "
+                }
+            ]
+        },
+        {
+            "Referencia": "PR01C_TU26-2-38",
+            "Fallas": [
+                {
+                    "Razon": "15 - Descalibrado",
+                    "Reportada": "equipo no enciende"
+                },
+                {
+                    "Razon": "53 - Obstruido",
+                    "Reportada": "equipo no regula"
+                },
+                {
+                    "Razon": "120 - Desgaste prematuro",
+                    "Reportada": "equipo presenta baja presion "
+                },
+                {
+                    "Razon": "139 - Piezas sueltas ",
+                    "Reportada": "Piezas sueltas"
+                }
+            ]
+        },
+        {
+            "Referencia": "AC01M_FS-103",
+            "Fallas": [
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "fugas de liquido "
+                },
+                {
+                    "Razon": "39 - Hilos Achatados",
+                    "Reportada": "lanza no enrosca "
+                },
+                {
+                    "Razon": "1 - Abolladuras",
+                    "Reportada": "lanza se encuentra doblada "
+                },
+                {
+                    "Razon": "41 - Hincado defectuoso",
+                    "Reportada": "lanza rota "
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_TF-900-1-88",
+            "Fallas": [
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "fugas de liquido "
+                },
+                {
+                    "Razon": "39 - Hilos Achatados",
+                    "Reportada": "lanza no enrosca "
+                },
+                {
+                    "Razon": "1 - Abolladuras",
+                    "Reportada": "lanza se encuentra doblada "
+                },
+                {
+                    "Razon": "41 - Hincado defectuoso",
+                    "Reportada": "lanza rota "
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_RCP-200-18X-01",
+            "Fallas": [
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "recipeinte roto"
+                },
+                {
+                    "Razon": "30 - Fisuras",
+                    "Reportada": "fugas de liquido "
+                },
+                {
+                    "Razon": "139 - Piezas sueltas ",
+                    "Reportada": "insertos sueltos "
+                },
+                {
+                    "Razon": "19 - Ovalamiento",
+                    "Reportada": "serigrafia en mal estado "
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_3B-TRN",
+            "Fallas": [
+                {
+                    "Razon": "53 - Obstruido",
+                    "Reportada": "equipo no genera presion"
+                },
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "fugas de liquido "
+                },
+                {
+                    "Razon": "120 - Desgaste prematuro",
+                    "Reportada": "equipo pierde presion "
+                },
+                {
+                    "Razon": "107 - Ensamble defectuoso",
+                    "Reportada": "valvula rota "
+                }
+            ]
+        },
+        {
+            "Referencia": "AC01C_MSC.PRF.PRTC",
+            "Fallas": [
+                {
+                    "Razon": "139 - Piezas sueltas ",
+                    "Reportada": "cartuchos no encajan "
+                },
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "mascarilla rota "
+                },
+                {
+                    "Razon": "20 - Dimensiones Fuera Tolerancia",
+                    "Reportada": "Mascarilla deformada"
+                },
+                {
+                    "Razon": "29 - Faltante/sobrante",
+                    "Reportada": "repuesto no llego "
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_TG-103X",
+            "Fallas": [
+                {
+                    "Razon": "29 - Faltante/sobrante",
+                    "Reportada": "faltante"
+                },
+                {
+                    "Razon": "120 - Desgaste prematuro",
+                    "Reportada": "valvula no enrosa"
+                },
+                {
+                    "Razon": "1 - Abolladuras",
+                    "Reportada": "hilos defectuosos"
+                },
+                {
+                    "Razon": "107 - Ensamble defectuoso",
+                    "Reportada": "Equipo no genera presión"
+                }
+            ]
+        },
+        {
+            "Referencia": "PR01C_22FT-22A1",
+            "Fallas": [
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "fugas de liquido "
+                },
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "labio reventado "
+                },
+                {
+                    "Razon": "20 - Dimensiones Fuera Tolerancia",
+                    "Reportada": "retenedor no encaja "
+                },
+                {
+                    "Razon": "120 - Desgaste prematuro",
+                    "Reportada": "Empaque no sella "
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_RCA-346ELFX",
+            "Fallas": [
+                {
+                    "Razon": "120 - Desgaste prematuro",
+                    "Reportada": "hilos defectuosos"
+                },
+                {
+                    "Razon": "39 - Hilos Achatados",
+                    "Reportada": "lanza rota"
+                },
+                {
+                    "Razon": "29 - Faltante/sobrante",
+                    "Reportada": "equipo llego sin la lanza "
+                },
+                {
+                    "Razon": "30 - Fisuras",
+                    "Reportada": "lanza doblada "
+                }
+            ]
+        },
+        {
+            "Referencia": "PR01C_3B-TRN",
+            "Fallas": [
+                {
+                    "Razon": "53 - Obstruido",
+                    "Reportada": "equipo no genera presion"
+                },
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "fugas de liquido "
+                },
+                {
+                    "Razon": "120 - Desgaste prematuro",
+                    "Reportada": "equipo pierde presion "
+                },
+                {
+                    "Razon": "107 - Ensamble defectuoso",
+                    "Reportada": "valvula rota "
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_TF-900-1-84",
+            "Fallas": [
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "fugas de liquido "
+                },
+                {
+                    "Razon": "39 - Hilos Achatados",
+                    "Reportada": "manguera no enrosca"
+                },
+                {
+                    "Razon": "39 - Hilos Achatados",
+                    "Reportada": "tuerca mariposa rota"
+                },
+                {
+                    "Razon": "128 - Grafado defectuoso Manguera",
+                    "Reportada": "grafado defectuso "
+                }
+            ]
+        },
+        {
+            "Referencia": "PR01C_FS-860-TRN-V00",
+            "Fallas": [
+                {
+                    "Razon": "7 - Cajas de Cartón Defectuosas",
+                    "Reportada": "caja rota "
+                },
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "caja en mal estado "
+                },
+                {
+                    "Razon": "111 - Decoloramiento",
+                    "Reportada": "serigrafia defectuosa "
+                },
+                {
+                    "Razon": "115 - Arte diferente",
+                    "Reportada": "cajas mojadas "
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_TU26-2-202123",
+            "Fallas": [
+                {
+                    "Razon": "64 - Rayones",
+                    "Reportada": "equipo pierde potencia "
+                },
+                {
+                    "Razon": "120 - Desgaste prematuro",
+                    "Reportada": "equipo  vota humo"
+                },
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "equipo pierde presion "
+                },
+                {
+                    "Razon": "20 - Dimensiones Fuera Tolerancia",
+                    "Reportada": "piston rayado "
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_HB-11",
+            "Fallas": [
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "fugasde liquido "
+                },
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "recipiente roto "
+                },
+                {
+                    "Razon": "30 - Fisuras",
+                    "Reportada": "Recipiente fisurado "
+                },
+                {
+                    "Razon": "19 - Ovalamiento",
+                    "Reportada": "Serigrafía defectuosa "
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_TU26-2-73",
+            "Fallas": [
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "manguera rota "
+                },
+                {
+                    "Razon": "30 - Fisuras",
+                    "Reportada": "fugas de combustible "
+                },
+                {
+                    "Razon": "20 - Dimensiones Fuera Tolerancia",
+                    "Reportada": "manguera esta corta "
+                },
+                {
+                    "Razon": "",
+                    "Reportada": ""
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_RJ-110049X",
+            "Fallas": [
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "tubo succion roto"
+                },
+                {
+                    "Razon": "139 - Piezas sueltas ",
+                    "Reportada": "equipo no genera presion "
+                },
+                {
+                    "Razon": "30 - Fisuras",
+                    "Reportada": "Fisurada "
+                },
+                {
+                    "Razon": "",
+                    "Reportada": ""
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_TF-900-1-2436",
+            "Fallas": [
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "trasmision bloqueada "
+                },
+                {
+                    "Razon": "30 - Fisuras",
+                    "Reportada": "Fisurada "
+                },
+                {
+                    "Razon": "139 - Piezas sueltas ",
+                    "Reportada": "ruidos fuertes "
+                },
+                {
+                    "Razon": "",
+                    "Reportada": ""
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_19OS-22A1",
+            "Fallas": [
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "fugas de liquido "
+                },
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "labio reventado "
+                },
+                {
+                    "Razon": "20 - Dimensiones Fuera Tolerancia",
+                    "Reportada": "retenedor no encaja "
+                },
+                {
+                    "Razon": "120 - Desgaste prematuro",
+                    "Reportada": "Fugas y escapes"
+                }
+            ]
+        },
+        {
+            "Referencia": "PR01C_10806-V01",
+            "Fallas": [
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "caja rota "
+                },
+                {
+                    "Razon": "115 - Arte diferente",
+                    "Reportada": "caja en mal estado "
+                },
+                {
+                    "Razon": "111 - Decoloramiento",
+                    "Reportada": "serigrafia defectuosa "
+                },
+                {
+                    "Razon": "7 - Cajas de Cartón Defectuosas",
+                    "Reportada": "cajas mojadas "
+                }
+            ]
+        },
+        {
+            "Referencia": "PR01C_TF-900-1-63",
+            "Fallas": [
+                {
+                    "Razon": "",
+                    "Reportada": "equipo no genera presion "
+                },
+                {
+                    "Razon": "120 - Desgaste prematuro",
+                    "Reportada": "Equipo no regula"
+                },
+                {
+                    "Razon": "20 - Dimensiones Fuera Tolerancia",
+                    "Reportada": "Equipo presenta baja presión"
+                },
+                {
+                    "Razon": "",
+                    "Reportada": ""
+                }
+            ]
+        },
+        {
+            "Referencia": "TR01M_10002",
+            "Fallas": [
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "jeringa rota"
+                },
+                {
+                    "Razon": "139 - Piezas sueltas ",
+                    "Reportada": "piesas sueltas"
+                },
+                {
+                    "Razon": "29 - Faltante/sobrante",
+                    "Reportada": "faltante"
+                },
+                {
+                    "Razon": "30 - Fisuras",
+                    "Reportada": "Fugas de liquido "
+                }
+            ]
+        },
+        {
+            "Referencia": "PR01C_TU26-2-75",
+            "Fallas": [
+                {
+                    "Razon": "53 - Obstruido",
+                    "Reportada": "filtro obstruido "
+                },
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "filtro roto "
+                },
+                {
+                    "Razon": "29 - Faltante/sobrante",
+                    "Reportada": "faltante"
+                },
+                {
+                    "Razon": "124 - Componentes mal ajustados",
+                    "Reportada": "Piezas sueltas"
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_TU26-2-37",
+            "Fallas": [
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "empaque roto"
+                },
+                {
+                    "Razon": "120 - Desgaste prematuro",
+                    "Reportada": "empaque no sella "
+                },
+                {
+                    "Razon": "30 - Fisuras",
+                    "Reportada": "fugas y escapes "
+                },
+                {
+                    "Razon": "",
+                    "Reportada": ""
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01C_61270030051",
+            "Fallas": [
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "trasmision bloqueada "
+                },
+                {
+                    "Razon": "30 - Fisuras",
+                    "Reportada": "Fisurada "
+                },
+                {
+                    "Razon": "139 - Piezas sueltas ",
+                    "Reportada": "ruidos fuertes "
+                },
+                {
+                    "Razon": "29 - Faltante/sobrante",
+                    "Reportada": "faltante"
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_TU26-2-72",
+            "Fallas": [
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "manguera rota "
+                },
+                {
+                    "Razon": "30 - Fisuras",
+                    "Reportada": "fugas de combustible "
+                },
+                {
+                    "Razon": "20 - Dimensiones Fuera Tolerancia",
+                    "Reportada": "manguera esta corta "
+                },
+                {
+                    "Razon": "",
+                    "Reportada": ""
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_TF-900-1-24",
+            "Fallas": [
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "ruidos fuertes "
+                },
+                {
+                    "Razon": "120 - Desgaste prematuro",
+                    "Reportada": "perdida de presion "
+                },
+                {
+                    "Razon": "64 - Rayones",
+                    "Reportada": "hilos defectusos "
+                },
+                {
+                    "Razon": "19 - Ovalamiento",
+                    "Reportada": "Equipo pierde presión"
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_HB-1D",
+            "Fallas": [
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "O ring roto "
+                },
+                {
+                    "Razon": "120 - Desgaste prematuro",
+                    "Reportada": "Equipo no genera presión"
+                },
+                {
+                    "Razon": "30 - Fisuras",
+                    "Reportada": "Fisurada "
+                },
+                {
+                    "Razon": "",
+                    "Reportada": ""
+                }
+            ]
+        },
+        {
+            "Referencia": "AC01M_FS-102",
+            "Fallas": [
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "fugas de liquido "
+                },
+                {
+                    "Razon": "39 - Hilos Achatados",
+                    "Reportada": "lanza no enrosca "
+                },
+                {
+                    "Razon": "1 - Abolladuras",
+                    "Reportada": "lanza se encuentra doblada "
+                },
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "Piezas rotas "
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_RCP-T2X",
+            "Fallas": [
+                {
+                    "Razon": "135 - Leds Sueltos",
+                    "Reportada": "bombillos no encienden "
+                },
+                {
+                    "Razon": "133 - Conexones Sulfatadas",
+                    "Reportada": "leds no encienden"
+                },
+                {
+                    "Razon": "130 - Corto Circuito",
+                    "Reportada": "no genera lectura"
+                },
+                {
+                    "Razon": "131 - Circuito Abierto",
+                    "Reportada": "no genera lectura"
+                }
+            ]
+        },
+        {
+            "Referencia": "PR01C_TU26-2-71-N",
+            "Fallas": [
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "manguera rota "
+                },
+                {
+                    "Razon": "120 - Desgaste prematuro",
+                    "Reportada": "fugas de combustible "
+                },
+                {
+                    "Razon": "30 - Fisuras",
+                    "Reportada": "Fugas de combustible "
+                },
+                {
+                    "Razon": "20 - Dimensiones Fuera Tolerancia",
+                    "Reportada": "Fugas de combustible "
+                }
+            ]
+        },
+        {
+            "Referencia": "TR01M_R210-S",
+            "Fallas": [
+                {
+                    "Razon": "129 - Motor Sin potencia",
+                    "Reportada": "motor pierde potencia"
+                },
+                {
+                    "Razon": "148 - Bloque rayado",
+                    "Reportada": "equipo no enciende "
+                },
+                {
+                    "Razon": "139 - Piezas sueltas ",
+                    "Reportada": "motor bloqueado "
+                },
+                {
+                    "Razon": "20 - Dimensiones Fuera Tolerancia",
+                    "Reportada": "ruidos fuertes "
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_TF-900-1-21",
+            "Fallas": [
+                {
+                    "Razon": "117 - Continuidad fuera de especificaciones",
+                    "Reportada": "equipo no enciende "
+                },
+                {
+                    "Razon": "139 - Piezas sueltas ",
+                    "Reportada": "cables invertidos"
+                },
+                {
+                    "Razon": "147 - Funcionamiento Intermitente",
+                    "Reportada": "conectores sueltos "
+                },
+                {
+                    "Razon": "131 - Circuito Abierto",
+                    "Reportada": "Equipo no enciende"
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_RHB-4",
+            "Fallas": [
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "manguera no enrosca"
+                },
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "fugas de liquido "
+                },
+                {
+                    "Razon": "30 - Fisuras",
+                    "Reportada": "manguera porosa "
+                },
+                {
+                    "Razon": "61 - Poros",
+                    "Reportada": "Fugas y escapes"
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_TU26-2-33",
+            "Fallas": [
+                {
+                    "Razon": "120 - Desgaste prematuro",
+                    "Reportada": "equipo no enciende "
+                },
+                {
+                    "Razon": "131 - Circuito Abierto",
+                    "Reportada": "Equipo enciende y se apaga  "
+                },
+                {
+                    "Razon": "139 - Piezas sueltas ",
+                    "Reportada": "Equipo se apaga "
+                },
+                {
+                    "Razon": "",
+                    "Reportada": ""
+                }
+            ]
+        },
+        {
+            "Referencia": "PR01C_7.5B-TRN",
+            "Fallas": [
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "hilos defectuosos"
+                },
+                {
+                    "Razon": "39 - Hilos Achatados",
+                    "Reportada": "fugas de liquido "
+                },
+                {
+                    "Razon": "1 - Abolladuras",
+                    "Reportada": "no enrosca "
+                },
+                {
+                    "Razon": "",
+                    "Reportada": ""
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_RM-200-15AM-02",
+            "Fallas": [
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "recipeinte roto"
+                },
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "fugas de liquido "
+                },
+                {
+                    "Razon": "139 - Piezas sueltas ",
+                    "Reportada": "insertos sueltos "
+                },
+                {
+                    "Razon": "42 - Impresión Defectuosa",
+                    "Reportada": "serigrafia en mal estado "
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_7B-TRN",
+            "Fallas": [
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "equipo no genera presion "
+                },
+                {
+                    "Razon": "61 - Poros",
+                    "Reportada": "equipo pierde presion "
+                },
+                {
+                    "Razon": "30 - Fisuras",
+                    "Reportada": "fugas de liquido"
+                },
+                {
+                    "Razon": "",
+                    "Reportada": ""
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_TF-900-1-46-50",
+            "Fallas": [
+                {
+                    "Razon": "120 - Desgaste prematuro",
+                    "Reportada": "fugas y escapes"
+                },
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "equipo pierde presion "
+                },
+                {
+                    "Razon": "30 - Fisuras",
+                    "Reportada": "equipo no genera presion "
+                },
+                {
+                    "Razon": "",
+                    "Reportada": ""
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_FS-DJ160-6-01(A)",
+            "Fallas": [
+                {
+                    "Razon": "15 - Descalibrado",
+                    "Reportada": "equipo no enciende"
+                },
+                {
+                    "Razon": "53 - Obstruido",
+                    "Reportada": "equipo no regula"
+                },
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "Fugas de combustible "
+                },
+                {
+                    "Razon": "139 - Piezas sueltas ",
+                    "Reportada": "Piezas  sueltas del flotador "
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_RCE-7487X",
+            "Fallas": [
+                {
+                    "Razon": "116 - Voltaje fuera de especificaciones",
+                    "Reportada": "no carga la bateria "
+                },
+                {
+                    "Razon": "29 - Faltante/sobrante",
+                    "Reportada": "equipo llego sin cargador "
+                },
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "cables rotos"
+                },
+                {
+                    "Razon": "107 - Ensamble defectuoso",
+                    "Reportada": "conectores invertidos "
+                }
+            ]
+        },
+        {
+            "Referencia": "PR01C_OS-30B1",
+            "Fallas": [
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "carcasa de  la bomba rotas"
+                },
+                {
+                    "Razon": "30 - Fisuras",
+                    "Reportada": "Fugas de liquido"
+                },
+                {
+                    "Razon": "143 - Fractura cigueñal",
+                    "Reportada": "Bomba frenada"
+                },
+                {
+                    "Razon": "",
+                    "Reportada": ""
+                }
+            ]
+        },
+        {
+            "Referencia": "AC02M_N001-102",
+            "Fallas": [
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "disco roto "
+                },
+                {
+                    "Razon": "30 - Fisuras",
+                    "Reportada": "fugas de liquido"
+                },
+                {
+                    "Razon": "120 - Desgaste prematuro",
+                    "Reportada": "Fugas y escapes"
+                },
+                {
+                    "Razon": "",
+                    "Reportada": ""
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_HB-11B",
+            "Fallas": [
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "fugasde liquido "
+                },
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "recipiente fisurado "
+                },
+                {
+                    "Razon": "30 - Fisuras",
+                    "Reportada": "recipiente roto "
+                },
+                {
+                    "Razon": "19 - Ovalamiento",
+                    "Reportada": "hilos defectusosos "
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_SG-502",
+            "Fallas": [
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "Fugas de liquido"
+                },
+                {
+                    "Razon": "39 - Hilos Achatados",
+                    "Reportada": "hilos defectusos"
+                },
+                {
+                    "Razon": "30 - Fisuras",
+                    "Reportada": "fugas de liquido "
+                },
+                {
+                    "Razon": "139 - Piezas sueltas ",
+                    "Reportada": "Soldadura defectuosa"
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_RC-200-20ENX-01",
+            "Fallas": [
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "recipeinte roto"
+                },
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "fugas de liquido "
+                },
+                {
+                    "Razon": "58 - Perforación fuera de especificación",
+                    "Reportada": "fugas de liquido "
+                },
+                {
+                    "Razon": "111 - Decoloramiento",
+                    "Reportada": "serigrafia en mal estado "
+                }
+            ]
+        },
+        {
+            "Referencia": "PR01M_TS-28-TRN",
+            "Fallas": [
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "chasis roto "
+                },
+                {
+                    "Razon": "30 - Fisuras",
+                    "Reportada": "soldadura defectuosa"
+                },
+                {
+                    "Razon": "20 - Dimensiones Fuera Tolerancia",
+                    "Reportada": "No enrosca "
+                },
+                {
+                    "Razon": "18 - Descentrado",
+                    "Reportada": "camilla inestable "
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_RC-320EX",
+            "Fallas": [
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "fugas de liquido"
+                },
+                {
+                    "Razon": "39 - Hilos Achatados",
+                    "Reportada": "hilos defectusos"
+                },
+                {
+                    "Razon": "38 - Hilos Abollados",
+                    "Reportada": "llave no enrosca "
+                },
+                {
+                    "Razon": "30 - Fisuras",
+                    "Reportada": "Fugas y escapes"
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_TU26-2-12",
+            "Fallas": [
+                {
+                    "Razon": "129 - Motor Sin potencia",
+                    "Reportada": "equipo pierde potencia "
+                },
+                {
+                    "Razon": "64 - Rayones",
+                    "Reportada": "equipo  vota humo"
+                },
+                {
+                    "Razon": "61 - Poros",
+                    "Reportada": "equipo pierde presion "
+                },
+                {
+                    "Razon": "120 - Desgaste prematuro",
+                    "Reportada": "Presión del equipo es inestable "
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_RC-920ENX",
+            "Fallas": [
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "llave rota"
+                },
+                {
+                    "Razon": "38 - Hilos Abollados",
+                    "Reportada": "Hilos defectuosos"
+                },
+                {
+                    "Razon": "39 - Hilos Achatados",
+                    "Reportada": "llave no enrosca "
+                },
+                {
+                    "Razon": "30 - Fisuras",
+                    "Reportada": "llave fisurada "
+                }
+            ]
+        },
+        {
+            "Referencia": "AC02M_S-02-35U",
+            "Fallas": [
+                {
+                    "Razon": "30 - Fisuras",
+                    "Reportada": "Fugas de liquido "
+                },
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "boquilla fisurada"
+                },
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "descarga inadecuada "
+                },
+                {
+                    "Razon": "50 - Mecanizado Incompleto",
+                    "Reportada": "Piezas sueltas"
+                }
+            ]
+        },
+        {
+            "Referencia": "AC01M_RC-343EX",
+            "Fallas": [
+                {
+                    "Razon": "38 - Hilos Abollados",
+                    "Reportada": "hilos defectuosos"
+                },
+                {
+                    "Razon": "39 - Hilos Achatados",
+                    "Reportada": "adaptador no enrosca"
+                },
+                {
+                    "Razon": "30 - Fisuras",
+                    "Reportada": "fugas de liquido "
+                },
+                {
+                    "Razon": "40 - Hilos de las rosca obstruidos",
+                    "Reportada": "Conector no enrosca "
+                }
+            ]
+        },
+        {
+            "Referencia": "AC01M_FS-106",
+            "Fallas": [
+                {
+                    "Razon": "40 - Hilos de las rosca obstruidos",
+                    "Reportada": "fugas de liquido "
+                },
+                {
+                    "Razon": "39 - Hilos Achatados",
+                    "Reportada": "lanza no enrosca "
+                },
+                {
+                    "Razon": "1 - Abolladuras",
+                    "Reportada": "lanza se encuentra doblada "
+                },
+                {
+                    "Razon": "41 - Hincado defectuoso",
+                    "Reportada": "tuerca mariposas sueltas "
+                }
+            ]
+        },
+        {
+            "Referencia": "PR01C_6OS-22A1",
+            "Fallas": [
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "biela rota "
+                },
+                {
+                    "Razon": "64 - Rayones",
+                    "Reportada": "Ruidos fuertes "
+                },
+                {
+                    "Razon": "38 - Hilos Abollados",
+                    "Reportada": "Hilos defectuosos"
+                },
+                {
+                    "Razon": "30 - Fisuras",
+                    "Reportada": "Fisurada "
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_FS-DJ160-6-05",
+            "Fallas": [
+                {
+                    "Razon": "30 - Fisuras",
+                    "Reportada": "empaque fisurado"
+                },
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "empaque no sella "
+                },
+                {
+                    "Razon": "120 - Desgaste prematuro",
+                    "Reportada": "Fugas de liquido "
+                },
+                {
+                    "Razon": "20 - Dimensiones Fuera Tolerancia",
+                    "Reportada": "Empaque no sella "
+                }
+            ]
+        },
+        {
+            "Referencia": "RP02M_5062400010",
+            "Fallas": [
+                {
+                    "Razon": "30 - Fisuras",
+                    "Reportada": "fisurada "
+                },
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "fugas de liquido "
+                },
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "Fugas y escapes"
+                },
+                {
+                    "Razon": "38 - Hilos Abollados",
+                    "Reportada": "Hilos defectuosos"
+                }
+            ]
+        },
+        {
+            "Referencia": "AC01M_FS-303",
+            "Fallas": [
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "fugas de liquido "
+                },
+                {
+                    "Razon": "39 - Hilos Achatados",
+                    "Reportada": "hilos defectuosos "
+                },
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "llave rota"
+                },
+                {
+                    "Razon": "53 - Obstruido",
+                    "Reportada": "llave no cierra "
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_TF-900-1-16",
+            "Fallas": [
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "guaya rota"
+                },
+                {
+                    "Razon": "56 - Oxidado",
+                    "Reportada": "acelerador duro"
+                },
+                {
+                    "Razon": "",
+                    "Reportada": ""
+                },
+                {
+                    "Razon": "",
+                    "Reportada": ""
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_HB-1",
+            "Fallas": [
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "equipo no genera presion"
+                },
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "bomba rota"
+                },
+                {
+                    "Razon": "30 - Fisuras",
+                    "Reportada": "Fugas y escapes"
+                },
+                {
+                    "Razon": "64 - Rayones",
+                    "Reportada": "Fugas de liquido "
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_FS-507",
+            "Fallas": [
+                {
+                    "Razon": "15 - Descalibrado",
+                    "Reportada": "manometro descalibrado"
+                },
+                {
+                    "Razon": "123 - Gliselina por fuera de parametros",
+                    "Reportada": "manometro sin glicerina "
+                },
+                {
+                    "Razon": "34 - Glicerina Sucia",
+                    "Reportada": "manometro obstruido "
+                },
+                {
+                    "Razon": "39 - Hilos Achatados",
+                    "Reportada": "Hilos defectuosos"
+                }
+            ]
+        },
+        {
+            "Referencia": "PR01C_R210-S",
+            "Fallas": [
+                {
+                    "Razon": "129 - Motor Sin potencia",
+                    "Reportada": "motor pierde potencia"
+                },
+                {
+                    "Razon": "15 - Descalibrado",
+                    "Reportada": "equipo no enciende "
+                },
+                {
+                    "Razon": "53 - Obstruido",
+                    "Reportada": "motor bloqueado "
+                },
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "ruidos fuertes "
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_RJ-110045X",
+            "Fallas": [
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "tuerca rota"
+                },
+                {
+                    "Razon": "64 - Rayones",
+                    "Reportada": "fugas y escapes"
+                },
+                {
+                    "Razon": "39 - Hilos Achatados",
+                    "Reportada": "tuerca no enrosca"
+                },
+                {
+                    "Razon": "1 - Abolladuras",
+                    "Reportada": "hilos defectusosos"
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_HB-9",
+            "Fallas": [
+                {
+                    "Razon": "139 - Piezas sueltas ",
+                    "Reportada": "evillas sueltas"
+                },
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "correa desilachadas "
+                },
+                {
+                    "Razon": "29 - Faltante/sobrante",
+                    "Reportada": "equipo llego sin correas "
+                },
+                {
+                    "Razon": "56 - Oxidado",
+                    "Reportada": "ganchos oxidados "
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_38-42B-TRN",
+            "Fallas": [
+                {
+                    "Razon": "64 - Rayones",
+                    "Reportada": "fugas y escapes"
+                },
+                {
+                    "Razon": "30 - Fisuras",
+                    "Reportada": "Fisurada "
+                },
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "perida de presion "
+                },
+                {
+                    "Razon": "86 - Zonas sin recubrimiento",
+                    "Reportada": "Fugas de liquido"
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_KIT.EMPQ.22B1",
+            "Fallas": [
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "fugas y escapes"
+                },
+                {
+                    "Razon": "20 - Dimensiones Fuera Tolerancia",
+                    "Reportada": "perdida de presion "
+                },
+                {
+                    "Razon": "30 - Fisuras",
+                    "Reportada": "Fugas de liquido "
+                },
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "Fugas de liquido "
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_TF-900-1-36",
+            "Fallas": [
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "rodamiento roto"
+                },
+                {
+                    "Razon": "53 - Obstruido",
+                    "Reportada": "rodamiento frenado"
+                },
+                {
+                    "Razon": "120 - Desgaste prematuro",
+                    "Reportada": "Rodamiento frenado"
+                },
+                {
+                    "Razon": "19 - Ovalamiento",
+                    "Reportada": "Rodamiento frenado"
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_RA-200-20BE",
+            "Fallas": [
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "recipeinte roto"
+                },
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "fugas de liquido "
+                },
+                {
+                    "Razon": "19 - Ovalamiento",
+                    "Reportada": "Fugas de liquido"
+                },
+                {
+                    "Razon": "23 - Escala Y Logotipo Defectuoso",
+                    "Reportada": "serigrafia en mal estado "
+                }
+            ]
+        },
+        {
+            "Referencia": "PR01C_38-42B-TRN",
+            "Fallas": [
+                {
+                    "Razon": "64 - Rayones",
+                    "Reportada": "fugas y escapes"
+                },
+                {
+                    "Razon": "20 - Dimensiones Fuera Tolerancia",
+                    "Reportada": "pistones rayados"
+                },
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "perida de presion "
+                },
+                {
+                    "Razon": "86 - Zonas sin recubrimiento",
+                    "Reportada": "Fugas de liquido"
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_RAC-200-20E",
+            "Fallas": [
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "recipeinte roto"
+                },
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "fugas de liquido "
+                },
+                {
+                    "Razon": "19 - Ovalamiento",
+                    "Reportada": "Fugas de liquido "
+                },
+                {
+                    "Razon": "23 - Escala Y Logotipo Defectuoso",
+                    "Reportada": "serigrafia en mal estado "
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_RPL-100EX",
+            "Fallas": [
+                {
+                    "Razon": "107 - Ensamble defectuoso",
+                    "Reportada": "Fugas y escapes"
+                },
+                {
+                    "Razon": "124 - Componentes mal ajustados",
+                    "Reportada": "Piezas sueltas"
+                },
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "Piezas rotas "
+                },
+                {
+                    "Razon": "30 - Fisuras",
+                    "Reportada": "Fugas de liquido"
+                },
+                {
+                    "Razon": "14 - Deformaciones",
+                    "Reportada": "Hilos defectuosos"
+                },
+                {
+                    "Razon": "38- Hilos abollados",
+                    "Reportada": "Hilos defectuosos"
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_RPL-400X",
+            "Fallas": [
+                {
+                    "Razon": "120 - Desgaste prematuro",
+                    "Reportada": "Fugas y escapes"
+                },
+                {
+                    "Razon": "14 - Deformaciones",
+                    "Reportada": "Fugas de liquido"
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_RPL-200-20X",
+            "Fallas": [
+                {
+                    "Razon": "30 - Fisuras",
+                    "Reportada": "Fugas de liquido"
+                },
+                {
+                    "Razon": "19 - Ovalamiento",
+                    "Reportada": "Fugas de liquido"
+                },
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "Recipiente roto"
+                },
+                {
+                    "Razon": "65 - Rebabas",
+                    "Reportada": "Fugas y escapes"
+                },
+                {
+                    "Razon": "42 - Impresión Defectuosa",
+                    "Reportada": "Serigrafía defectuosa"
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_RPL-605EX",
+            "Fallas": [
+                {
+                    "Razon": "38 - Hilos abollados",
+                    "Reportada": "Hilos defectuosos"
+                },
+                {
+                    "Razon": "77 - Sin rosca ",
+                    "Reportada": "Hilos defectuosos"
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_RPL-203X",
+            "Fallas": [
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "Fugas de liquido"
+                },
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "Fugas y escapes"
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_RPL-413X",
+            "Fallas": [
+                {
+                    "Razon": "120 - Desgaste prematuro",
+                    "Reportada": "Fugas y escapes"
+                },
+                {
+                    "Razon": "14 - Deformaciones",
+                    "Reportada": "Fugas de liquido"
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_RPL-415X",
+            "Fallas": [
+                {
+                    "Razon": "29 - Faltante/sobrante",
+                    "Reportada": "faltante"
+                },
+                {
+                    "Razon": "53 - Obstruido",
+                    "Reportada": "Filtro obstruido "
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_RPL-501X",
+            "Fallas": [
+                {
+                    "Razon": "38 - Hilos abollados",
+                    "Reportada": "Hilos defectuosos"
+                },
+                {
+                    "Razon": "61 - Poros",
+                    "Reportada": "Cámara porosa "
+                },
+                {
+                    "Razon": "14 - Deformaciones",
+                    "Reportada": "Fugas y escapes"
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_RPL-601X",
+            "Fallas": [
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "Chasis roto "
+                },
+                {
+                    "Razon": "14 - Deformaciones",
+                    "Reportada": "carcasa no encaja "
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_RPL-609X",
+            "Fallas": [
+                {
+                    "Razon": "38 - Hilos abollados",
+                    "Reportada": "Hilos defectuosos"
+                },
+                {
+                    "Razon": "77 - Sin rosca ",
+                    "Reportada": "Hilos defectuosos"
+                },
+                {
+                    "Razon": "29 - Faltante/sobrante",
+                    "Reportada": "faltante"
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_RPL-611X",
+            "Fallas": [
+                {
+                    "Razon": "29 - Faltante/sobrante",
+                    "Reportada": "faltante"
+                },
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "Piezas rotas "
+                },
+                {
+                    "Razon": "19 - Ovalamiento",
+                    "Reportada": "Piezas sueltas"
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_RPL-612X",
+            "Fallas": [
+                {
+                    "Razon": "29 - Faltante/sobrante",
+                    "Reportada": "faltante"
+                },
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "Piezas rotas "
+                },
+                {
+                    "Razon": "19 - Ovalamiento",
+                    "Reportada": "Piezas sueltas"
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_RPL-803X",
+            "Fallas": [
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "Piezas rotas "
+                },
+                {
+                    "Razon": "29 - Faltante/sobrante",
+                    "Reportada": "faltante"
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_RPL-809X",
+            "Fallas": [
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "Piezas rotas "
+                },
+                {
+                    "Razon": "38 - Hilos abollados",
+                    "Reportada": "Hilos defectuosos"
+                },
+                {
+                    "Razon": "77 - Sin rosca ",
+                    "Reportada": "Hilos defectuosos"
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_RCP-121X",
+            "Fallas": [
+                {
+                    "Razon": "29 - Faltante/sobrante",
+                    "Reportada": "faltante"
+                },
+                {
+                    "Razon": "53 - Obstruido",
+                    "Reportada": "Filtro obstruido "
+                },
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "Filtro roto "
+                },
+                {
+                    "Razon": "124 - Componentes mal ajustados",
+                    "Reportada": "Piezas sueltas"
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_RCP-203X",
+            "Fallas": [
+                {
+                    "Razon": "53 - Obstruido",
+                    "Reportada": "Equipo pierde presión"
+                },
+                {
+                    "Razon": "33 - Fugas o Escapes",
+                    "Reportada": "Fisurada "
+                },
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "Fugas de liquido"
+                },
+                {
+                    "Razon": "20 - Dimensiones Fuera Tolerancia",
+                    "Reportada": "Conector no enrosca "
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_RCP-601X",
+            "Fallas": [
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "carcasa rota "
+                },
+                {
+                    "Razon": "30 - Fisuras",
+                    "Reportada": "Fisurada "
+                },
+                {
+                    "Razon": "65 - Rebabas",
+                    "Reportada": "carcasa no encaja "
+                },
+                {
+                    "Razon": "",
+                    "Reportada": ""
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_RCP-602X",
+            "Fallas": [
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "carcasa rota "
+                },
+                {
+                    "Razon": "30 - Fisuras",
+                    "Reportada": "Fisurada "
+                },
+                {
+                    "Razon": "3 - Agujeros obstruidos",
+                    "Reportada": "carcasa no encaja "
+                },
+                {
+                    "Razon": "",
+                    "Reportada": ""
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_RCP-751X",
+            "Fallas": [
+                {
+                    "Razon": "69 - Roturas",
+                    "Reportada": "carcasa rota "
+                },
+                {
+                    "Razon": "20 - Dimensiones Fuera Tolerancia",
+                    "Reportada": "carcasa no encaja "
+                },
+                {
+                    "Razon": "65 - Rebabas",
+                    "Reportada": "carcasa no encaja "
+                },
+                {
+                    "Razon": "14 - Deformaciones",
+                    "Reportada": "carcasa no encaja "
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_RCP-900X",
+            "Fallas": [
+                {
+                    "Razon": "15 - Descalibrado",
+                    "Reportada": "Manómetro no regula "
+                },
+                {
+                    "Razon": "53 - Obstruido",
+                    "Reportada": "Manómetro obstruido "
+                },
+                {
+                    "Razon": "123 - Gliselina por fuera de parametros",
+                    "Reportada": "Manómetro sin glicerina "
+                },
+                {
+                    "Razon": "34 - Glicerina Sucia",
+                    "Reportada": "Fugas de liquido "
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_RCP-A3F5AX",
+            "Fallas": [
+                {
+                    "Razon": "130 - Corto Circuito",
+                    "Reportada": "Equipo no enciende"
+                },
+                {
+                    "Razon": "29 - Faltante/sobrante",
+                    "Reportada": "faltante"
+                },
+                {
+                    "Razon": "",
+                    "Reportada": ""
+                },
+                {
+                    "Razon": "",
+                    "Reportada": ""
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_RCP-A4X",
+            "Fallas": [
+                {
+                    "Razon": "127 - Funcionamiento intermitente",
+                    "Reportada": "Equipo no enciende"
+                },
+                {
+                    "Razon": "117 - Continuidad fuera de especificaciones",
+                    "Reportada": "Equipo enciende y se apaga  "
+                },
+                {
+                    "Razon": "131 - Circuito Abierto",
+                    "Reportada": "Equipo no enciende"
+                },
+                {
+                    "Razon": "107 - Ensamble defectuoso",
+                    "Reportada": "Cables sueltos "
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_RCP-B12V7AHX",
+            "Fallas": [
+                {
+                    "Razon": "136 - Falla en la bateria",
+                    "Reportada": "Equipo no enciende"
+                },
+                {
+                    "Razon": "122 - Faltante Accesorios",
+                    "Reportada": "faltante"
+                },
+                {
+                    "Razon": "116 - Voltaje fuera de especificaciones",
+                    "Reportada": "Batería dura poco tiempo "
+                },
+                {
+                    "Razon": "131 - Circuito Abierto",
+                    "Reportada": "No carga la batería "
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_RCP-CRG12V1.5AX",
+            "Fallas": [
+                {
+                    "Razon": "29 - Faltante/sobrante",
+                    "Reportada": "Equipo llego sin cargador "
+                },
+                {
+                    "Razon": "116 - Voltaje fuera de especificaciones",
+                    "Reportada": "Equipo no enciende"
+                },
+                {
+                    "Razon": "127 - Funcionamiento intermitente",
+                    "Reportada": "leds no encienden"
+                },
+                {
+                    "Razon": "117 - Continuidad fuera de especificaciones",
+                    "Reportada": "Cables sueltos "
+                }
+            ]
+        },
+        {
+            "Referencia": "RP01M_RCP-T1X",
+            "Fallas": [
+                {
+                    "Razon": "134 - Terminales Sueltas",
+                    "Reportada": "Cables invertidos"
+                },
+                {
+                    "Razon": "116 - Voltaje fuera de especificaciones",
+                    "Reportada": "Equipo no regula"
+                },
+                {
+                    "Razon": "127 - Funcionamiento intermitente",
+                    "Reportada": "Equipo enciende y se apaga"
+                },
+                {
+                    "Razon": "130 - Corto Circuito",
+                    "Reportada": "Equipo no enciende"
+                }
+            ]
+        }
+    ]
+}

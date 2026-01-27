@@ -476,3 +476,30 @@ function departamentoOnchange(seleccion) {
     seccionMayorista.style.display = "none";
   }
 }
+
+function tipoClienteOnchange(select) {
+  const valor = select.value;
+
+  const seccion = document.getElementById("seccion_cliente_final");
+  const nombreFinal = document.getElementById("nombre_cliente_final");
+  const docFinal = document.getElementById("documento_cliente_final");
+  const correoFinal = document.getElementById("correo_cliente_final");
+
+  const esTaller = (valor === "Taller de Servicio Autorizado");
+
+  // Mostrar / ocultar
+  seccion.style.display = esTaller ? "flex" : "none"; // o "block" si prefieres
+
+  // Si NO es taller, limpia valores para no enviar basura
+  if (!esTaller) {
+    nombreFinal.value = "";
+    docFinal.value = "";
+    correoFinal.value = "";
+  }
+
+  // (Opcional) si quieres que sean requeridos SOLO cuando es taller:
+  nombreFinal.required = esTaller;
+  docFinal.required = esTaller;
+  correoFinal.required = esTaller;
+}
+

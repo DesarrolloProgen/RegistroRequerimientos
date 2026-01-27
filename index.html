@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <meta
@@ -32,6 +32,47 @@
           >
             <option disabled selected>Selecciona una opción</option>
           </select>
+        </div>
+      </div>
+      <!-- Sección Cliente Final (solo para Taller de servicio) -->
+      <div class="row" id="seccion_cliente_final" style="display: none">
+        <div class="col-md-8 offset-md-1">
+          <label for="nombre_cliente_final" class="control-label"
+            >Nombre Cliente Final</label
+          >
+          <input
+            id="nombre_cliente_final"
+            name="nombre_cliente_final"
+            class="form-control"
+            type="text"
+            placeholder="Ingrese el nombre del cliente final"
+          />
+        </div>
+
+        <div class="col-md-4 offset-md-1" style="margin-top: 10px">
+          <label for="documento_cliente_final" class="control-label"
+            >No. Documento de Identidad</label
+          >
+          <input
+            id="documento_cliente_final"
+            name="documento_cliente_final"
+            class="form-control"
+            type="text"
+            placeholder="Ingrese el documento del cliente final"
+          />
+        </div>
+
+        <div class="col-md-4 offset-md" style="margin-top: 10px">
+          <label for="correo_cliente_final" class="control-label"
+            >Correo electrónico</label
+          >
+          <input
+            id="correo_cliente_final"
+            name="correo_cliente_final"
+            class="form-control"
+            type="email"
+            placeholder="Ingrese el correo del cliente final"
+          />
         </div>
       </div>
 
@@ -96,7 +137,9 @@
             class="form-control"
             type="number"
             placeholder="Ingrese su numero de telefono"
-            onkeypress="if ( isNaN( String.fromCharCode(event.keyCode) )) return false;"
+            onkeypress="
+              if (isNaN(String.fromCharCode(event.keyCode))) return false;
+            "
           />
         </div>
       </div>
@@ -105,8 +148,13 @@
 
       <div class="row">
         <div class="col-md-4 offset-md-1" id="Depart">
-          <label for="Departamento" class="control-label" >Departamento </label>
-          <select id="Departamento" name="Departamento" class="form-control" onchange="departamentoOnchange(this)">
+          <label for="Departamento" class="control-label">Departamento </label>
+          <select
+            id="Departamento"
+            name="Departamento"
+            class="form-control"
+            onchange="departamentoOnchange(this)"
+          >
             <option disabled selected>Selecciona una opción</option>
           </select>
         </div>
