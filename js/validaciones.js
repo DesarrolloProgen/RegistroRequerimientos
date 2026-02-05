@@ -303,7 +303,12 @@ function validaciones() {
         return false;
       }
 
-      if (punto_venta.value == "" || punto_venta.value == null) {
+
+      if (
+        punto_venta.value == "" ||
+        (punto_venta.value == null &&
+          (equipos.value == "Accesorios" || equipos.value == "Repuestos"))
+      ) {
         document.getElementById("headermensaje").style.background = "#ff3c37";
         document.getElementById("titulomensaje").innerHTML = "ERROR";
         document.getElementById("mensaje").innerHTML =
@@ -415,30 +420,6 @@ function cargando() {
     '<img src="https://acegif.com/wp-content/uploads/loading-25.gif" alt="Cargando" width="50px" height="50px"><span style="padding-left: 10px">Cargando...</span>';
 }
 
-function tipoClienteOnchange(seleccion) {
-  divexportacions = document.getElementById("exportaciones");
-  divDepartamento = document.getElementById("Depart");
-  divEquipos = document.getElementById("divEquipos");
-  divEquiposInternacionales = document.getElementById(
-    "divEquiposInternacionales"
-  );
-  if (seleccion.value == "Mercados Internacionales") {
-    divexportacions.style.display = "";
-    divDepartamento.style.display = "none";
-    divEquiposInternacionales.style.display = "";
-    divEquipos.style.display = "none";
-  } else {
-    divexportacions.style.display = "none";
-    divDepartamento.style.display = "";
-    divEquiposInternacionales.style.display = "none";
-    divEquipos.style.display = "";
-  }
-  const seccionMayorista = document.getElementById("seccion_mayoristas");
-  if (seleccion.value !== "Distribuidor Autorizado") {
-    seccionMayorista.style.display = "none";
-  }
-}
-
 function departamentoOnchange(seleccion) {
   var tipo_cliente = document.getElementById("t_cliente");
 
@@ -485,8 +466,29 @@ function tipoClienteOnchange(select) {
   const docFinal = document.getElementById("documento_cliente_final");
   const correoFinal = document.getElementById("correo_cliente_final");
 
-  const esTaller = (valor === "Taller de Servicio Autorizado");
+  const esTaller = valor === "Taller de Servicio Autorizado";
+  const divexportacions = document.getElementById("exportaciones");
+  const divDepartamento = document.getElementById("Depart");
+  const divEquipos = document.getElementById("divEquipos");
+  const divEquiposInternacionales = document.getElementById(
+    "divEquiposInternacionales",
+  );
+  if (select.value == "Mercados Internacionales") {
+    divexportacions.style.display = "";
+    divDepartamento.style.display = "none";
+    divEquiposInternacionales.style.display = "";
+    divEquipos.style.display = "none";
+  } else {
+    divexportacions.style.display = "none";
+    divDepartamento.style.display = "";
+    divEquiposInternacionales.style.display = "none";
+    divEquipos.style.display = "";
+  }
 
+  const seccionMayorista = document.getElementById("seccion_mayoristas");
+  if (select.value !== "Distribuidor Autorizado") {
+    seccionMayorista.style.display = "none";
+  }
   // Mostrar / ocultar
   seccion.style.display = esTaller ? "flex" : "none"; // o "block" si prefieres
 
